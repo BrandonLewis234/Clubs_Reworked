@@ -1,0 +1,20 @@
+{
+  "Group": "TangoMango",
+  "Name": "Clubs Reworked",
+  "Version": "1.0.0",
+  "Description": "A mod that introduces clubs to be usable by players. Previously only usable by mods, players can now craft and use clubs!",
+  "Authors": [
+    {
+      "Name": "TangoMango",
+      "Email": "",
+      "Url": ""
+    }
+  ],
+  "Website": "",
+  "Dependencies": {},
+  "OptionalDependencies": {},
+  "LoadBefore": {},
+  "DisabledByDefault": false,
+  "IncludesAssetPack": false,
+  "SubPlugins": []
+}
