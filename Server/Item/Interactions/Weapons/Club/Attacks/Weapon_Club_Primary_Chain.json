@@ -1,7 +1,6 @@
 {
   "Type": "Chaining",
   "ChainingAllowance": 1.2,
-  "ChainId": "Club_Swings",
   "Next": [
     {
       "Type": "Replace",
@@ -9,7 +8,7 @@
       "Var": "Swing_Left",
       "DefaultValue": {
         "Interactions": [
-          "Club_Swing_Left"
+          "Weapon_Club_Primary_Swing_Left"
         ]
       }
     },
@@ -19,7 +18,7 @@
       "Var": "Swing_Right",
       "DefaultValue": {
         "Interactions": [
-          "Club_Swing_Right"
+          "Weapon_Club_Primary_Swing_Right"
         ]
       }
     },
@@ -29,7 +28,7 @@
       "Var": "Swing_Up_Left",
       "DefaultValue": {
         "Interactions": [
-          "Club_Swing_Up_Left"
+          "Weapon_Club_Primary_Swing_Up_Left"
         ]
       }
     },
@@ -39,7 +38,7 @@
       "Var": "Swing_Down",
       "DefaultValue": {
         "Interactions": [
-          "Club_Swing_Down"
+          "Weapon_Club_Primary_Swing_Down"
         ]
       }
     }

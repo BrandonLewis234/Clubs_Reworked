@@ -12,7 +12,7 @@
       "DefaultOk": true,
       "DefaultValue": {
         "Interactions": [
-          "Club_Guard"
+          "Weapon_Club_Secondary_Guard"
         ]
       }
     }

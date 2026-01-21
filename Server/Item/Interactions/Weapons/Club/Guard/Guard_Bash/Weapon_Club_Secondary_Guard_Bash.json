@@ -27,7 +27,7 @@
           "DefaultOk": true,
           "DefaultValue": {
             "Interactions": [
-              "Club_Guard_Bash_Selector"
+              "Weapon_Club_Secondary_Guard_Bash_Selector"
             ]
           }
         }

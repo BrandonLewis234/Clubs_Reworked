@@ -9,7 +9,7 @@
       "DefaultOk": true,
       "DefaultValue": {
         "Interactions": [
-          "Club_Swing_Down_Charged_StaminaCondition"
+          "Weapon_Club_Primary_Swing_Down_Charged_StaminaCondition"
         ]
       }
     }

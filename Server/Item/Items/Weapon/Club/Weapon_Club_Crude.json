@@ -1,101 +1,156 @@
 {
+  "Parent": "Template_Weapon_Club",
   "TranslationProperties": {
     "Name": "server.items.Weapon_Club_Crude.name"
   },
-  "Categories": [
-    "Items.Weapons"
-  ],
-  "Icon": "Icons/ItemsGenerated/Weapon_Club_Crude.png",
-  "ItemLevel": 5,
   "Model": "Items/Weapons/Club/Crude.blockymodel",
   "Texture": "Items/Weapons/Club/Crude_Texture.png",
+  "Icon": "Icons/ItemsGenerated/Weapon_Club_Crude.png",
+  "Quality": "Common",
   "PlayerAnimationsId": "Club",
   "Utility": {
     "Compatible": true
   },
-  "Interactions": {
-    "Primary": "Club_Attack"
+  "ItemLevel": 11,
+  "Recipe": {
+    "TimeSeconds": 1.5,
+    "KnowledgeRequired": false,
+    "Input": [
+      {
+        "ResourceTypeId": "Wood_Trunk",
+        "Quantity": 3
+      },
+      {
+        "ItemId": "Ingredient_Fibre",
+        "Quantity": 4
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Id": "Workbench",
+        "Type": "Crafting",
+        "Categories": [
+          "Workbench_Survival"
+        ]
+      }
+    ]
   },
   "InteractionVars": {
-    "Club_Swing_Left_Effect": {
+    "Swing_Left_Damage": {
       "Interactions": [
         {
-          "Parent": "Club_Swing_Left_Effect",
-          "Effects": {
-            "WorldSoundEventId": "SFX_Club_Wood_Swing"
-          }
-        }
-      ]
-    },
-    "Club_Swing_Left_Damage": {
-      "Interactions": [
-        {
-          "Parent": "Club_Swing_Left_Damage",
-          "DamageCalculator": {
-            "Type": "Absolute",
-            "BaseDamage": {
-              "Physical": 4
-            },
-            "RandomPercentageModifier": 0.1
-          },
+          "Parent": "Weapon_Club_Primary_Swing_Left_Damage",
           "DamageEffects": {
-            "WorldSoundEventId": "SFX_Club_Wood_Impact"
-          }
-        }
-      ]
-    },
-    "Club_Swing_Right_Effect": {
-      "Interactions": [
-        {
-          "Parent": "Club_Swing_Right_Effect",
-          "Effects": {
-            "WorldSoundEventId": "SFX_Club_Wood_Swing"
-          }
-        }
-      ]
-    },
-    "Club_Swing_Right_Damage": {
-      "Interactions": [
-        {
-          "Parent": "Club_Swing_Right_Damage",
-          "DamageCalculator": {
-            "Type": "Absolute",
-            "BaseDamage": {
-              "Physical": 4
-            },
-            "RandomPercentageModifier": 0.1
+            "WorldSoundEventId": "SFX_Club_Wood_Impact",
+            "LocalSoundEventId": "SFX_Club_Wood_Impact"
           },
+          "DamageCalculator": {
+            "BaseDamage": {
+              "Physical": 5
+            }
+          }
+        }
+      ]
+    },
+    "Swing_Right_Damage": {
+      "Interactions": [
+        {
+          "Parent": "Weapon_Club_Primary_Swing_Right_Damage",
           "DamageEffects": {
-            "WorldSoundEventId": "SFX_Club_Wood_Impact"
+            "WorldSoundEventId": "SFX_Club_Wood_Impact",
+            "LocalSoundEventId": "SFX_Club_Wood_Impact"
+          },
+          "DamageCalculator": {
+            "BaseDamage": {
+              "Physical": 5
+            }
+          }
+        }
+      ]
+    },
+    "Swing_Up_Left_Damage": {
+      "Interactions": [
+        {
+          "Parent": "Weapon_Club_Primary_Swing_Up_Left_Damage",
+          "DamageEffects": {
+            "WorldSoundEventId": "SFX_Club_Wood_Impact",
+            "LocalSoundEventId": "SFX_Club_Wood_Impact"
+          },
+          "DamageCalculator": {
+            "BaseDamage": {
+              "Physical": 5
+            }
+          }
+        }
+      ]
+    },
+    "Swing_Down_Damage": {
+      "Interactions": [
+        {
+          "Parent": "Weapon_Club_Primary_Swing_Down_Damage",
+          "DamageEffects": {
+            "WorldSoundEventId": "SFX_Club_Wood_Impact",
+            "LocalSoundEventId": "SFX_Club_Wood_Impact"
+          },
+          "DamageCalculator": {
+            "BaseDamage": {
+              "Physical": 5
+            }
+          }
+        }
+      ]
+    },
+    "Swing_Down_Charged_Damage": {
+      "Interactions": [
+        {
+          "Parent": "Weapon_Club_Primary_Swing_Down_Charged_Damage",
+          "DamageCalculator": {
+            "BaseDamage": {
+              "Physical": 15
+            }
+          },
+          "EntityStatsOnHit": [
+            {
+              "EntityStatId": "SignatureEnergy",
+              "Amount": 2
+            }
+          ],
+          "DamageEffects": {
+            "WorldSoundEventId": "SFX_Club_Wood_Impact",
+            "LocalSoundEventId": "SFX_Club_Wood_Impact"
+          }
+        }
+      ]
+    },
+    "Signature_Groundslam_Damage": {
+      "Interactions": [
+        {
+          "Parent": "Weapon_Club_Signature_Groundslam_Damage",
+          "DamageCalculator": {
+            "BaseDamage": {
+              "Physical": 25
+            }
+          },
+          "EntityStatsOnHit": [],
+          "DamageEffects": {
+            "WorldSoundEventId": "SFX_Club_Wood_Impact",
+            "LocalSoundEventId": "SFX_Club_Wood_Impact"
+          }
+        }
+      ]
+    },
+    "Guard_Wield": {
+      "Interactions": [
+        {
+          "Parent": "Weapon_Club_Secondary_Guard_Wield",
+          "StaminaCost": {
+            "Value": 10,
+            "CostType": "Damage"
           }
         }
       ]
     }
   },
-  "IconProperties": {
-    "Scale": 0.4,
-    "Translation": [
-      -18,
-      -19.8
-    ],
-    "Rotation": [
-      45,
-      90,
-      0
-    ]
-  },
-  "DroppedItemAnimation": "Items/Animations/Dropped/Dropped_Diagonal_Left.blockyanim",
-  "MaxDurability": 60,
-  "DurabilityLossOnHit": 0.56,
-  "Tags": {
-    "Type": [
-      "Weapon"
-    ],
-    "Family": [
-      "Club"
-    ]
-  },
-  "Weapon": {},
-  "ItemSoundSetId": "ISS_Weapons_Blunt_Small",
-  "Quality": "Common"
+  "MaxDurability": 80,
+  "DurabilityLossOnHit": 0.45
 }

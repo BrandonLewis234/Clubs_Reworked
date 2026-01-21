@@ -18,9 +18,9 @@
         "Style": "Linear"
       },
       "Direction": {
-        "X": 1,
-        "Y": -1,
-        "Z": 1
+        "X": -1,
+        "Y": 1,
+        "Z": -1
       },
       "Force": 12,
       "VelocityType": "Set"
@@ -35,7 +35,7 @@
   "EntityStatsOnHit": [
     {
       "EntityStatId": "SignatureEnergy",
-      "Amount": 2
+      "Amount": 1
     }
   ]
 }

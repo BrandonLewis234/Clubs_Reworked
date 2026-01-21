@@ -73,7 +73,7 @@
                 "DefaultOk": true,
                 "DefaultValue": {
                   "Interactions": [
-                    "Club_Swing_Down_Charged_Selector"
+                    "Weapon_Club_Primary_Swing_Down_Charged_Selector"
                   ]
                 }
               }

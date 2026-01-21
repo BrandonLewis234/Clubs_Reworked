@@ -1,7 +1,7 @@
 {
   "Type": "Simple",
   "Effects": {
-    "ItemAnimationId": "SwingLeft"
+    "ItemAnimationId": "SwingDown"
   },
   "$Comment": "Prepare Delay",
   "RunTime": 0.267,
@@ -24,19 +24,20 @@
               "StartDistance": 0.5,
               "EndDistance": 2.5,
               "Length": 90,
-              "RollOffset": 30,
+              "RollOffset": 75,
               "YawStartOffset": -45
             },
             "HitEntity": {
               "Interactions": [
                 {
                   "Type": "Replace",
+                  "Var": "Swing_Down_Damage",
+                  "DefaultOk": true,
                   "DefaultValue": {
                     "Interactions": [
-                      "Club_Swing_Left_Damage"
+                      "Weapon_Club_Primary_Swing_Down_Damage"
                     ]
-                  },
-                  "Var": "Melee_Damage"
+                  }
                 }
               ]
             },

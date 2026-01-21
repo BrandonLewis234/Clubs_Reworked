@@ -16,7 +16,7 @@
       "DefaultOk": true,
       "DefaultValue": {
         "Interactions": [
-          "Club_Swing_Down_Charged"
+          "Weapon_Club_Primary_Swing_Down_Charged"
         ]
       }
     }

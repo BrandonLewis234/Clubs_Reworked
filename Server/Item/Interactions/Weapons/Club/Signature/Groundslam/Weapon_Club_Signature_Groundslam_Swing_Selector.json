@@ -57,7 +57,7 @@
     "Interactions": [
       {
         "Type": "Replace",
-        "Var": "Groundslam_Damage",
+        "Var": "Signature_Groundslam_Damage",
         "DefaultOk": true,
         "DefaultValue": {
           "Interactions": [

@@ -1,7 +1,7 @@
 {
   "Type": "Simple",
   "Effects": {
-    "ItemAnimationId": "SwingRight"
+    "ItemAnimationId": "SwingUpLeft"
   },
   "$Comment": "Prepare Delay",
   "RunTime": 0.267,
@@ -17,14 +17,14 @@
             "RunTime": 0.111,
             "Selector": {
               "Id": "Horizontal",
-              "Direction": "ToRight",
+              "Direction": "ToLeft",
               "TestLineOfSight": true,
               "ExtendTop": 0.5,
               "ExtendBottom": 0.5,
               "StartDistance": 0.5,
               "EndDistance": 2.5,
               "Length": 90,
-              "RollOffset": -30,
+              "RollOffset": -45,
               "YawStartOffset": -45
             },
             "HitEntity": {
@@ -33,10 +33,10 @@
                   "Type": "Replace",
                   "DefaultValue": {
                     "Interactions": [
-                      "Club_Swing_Right_Damage"
+                      "Weapon_Club_Primary_Swing_Up_Left_Damage"
                     ]
                   },
-                  "Var": "Melee_Damage"
+                  "Var": "Swing_Up_Left_Damage"
                 }
               ]
             },

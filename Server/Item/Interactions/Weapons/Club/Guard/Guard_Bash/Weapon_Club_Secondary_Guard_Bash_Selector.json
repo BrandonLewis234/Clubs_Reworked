@@ -41,7 +41,7 @@
         "DefaultOk": true,
         "DefaultValue": {
           "Interactions": [
-            "Club_Guard_Bash_Damage"
+            "Weapon_Club_Secondary_Guard_Bash_Damage"
           ]
         }
       }
