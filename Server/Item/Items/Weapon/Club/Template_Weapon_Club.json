@@ -1,6 +1,6 @@
 {
   "TranslationProperties": {
-    "Name": "Template Club"
+    "Name": "server.items.Template_Weapon_Club.name"
   },
   "Model": "Items/Weapons/Club/Crude.blockymodel",
   "Texture": "Items/Weapons/Club/Crude_Texture.png",
