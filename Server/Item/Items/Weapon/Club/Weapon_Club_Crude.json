@@ -18,7 +18,7 @@
     "Input": [
       {
         "ResourceTypeId": "Wood_Trunk",
-        "Quantity": 3
+        "Quantity": 4
       },
       {
         "ItemId": "Ingredient_Fibre",
