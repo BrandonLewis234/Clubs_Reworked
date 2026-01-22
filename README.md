@@ -1,4 +1,4 @@
-# Clubs Reworked
+# <a href="https://www.curseforge.com/hytale/mods/clubs-reworked" target="_blank">Clubs Reworked</a>
 
 **Introduces clubs as a new weapon type usable by the player.**
 
