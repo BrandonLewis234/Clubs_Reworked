@@ -37,7 +37,8 @@
           "TargetNodeName": "Handle",
           "TrailId": "Medium_Charged"
         }
-      ]
+      ],
+      "WorldSoundEventId": "SFX_Light_Melee_T2_Swing"
     },
     "Selector": {
       "Id": "Horizontal",
