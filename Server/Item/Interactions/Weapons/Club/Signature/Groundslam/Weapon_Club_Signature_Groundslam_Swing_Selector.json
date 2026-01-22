@@ -57,11 +57,11 @@
     "Interactions": [
       {
         "Type": "Replace",
-        "Var": "Signature_Groundslam_Damage",
+        "Var": "Groundslam_Damage",
         "DefaultOk": true,
         "DefaultValue": {
           "Interactions": [
-            "Weapon_Mace_Signature_Groundslam_Damage"
+            "Weapon_Club_Signature_Groundslam_Damage"
           ]
         }
       }
@@ -73,7 +73,7 @@
     "DefaultOk": true,
     "DefaultValue": {
       "Interactions": [
-        "Weapon_Mace_Signature_Groundslam_Explosion"
+        "Weapon_Club_Signature_Groundslam_Explosion"
       ]
     }
   }

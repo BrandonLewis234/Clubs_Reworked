@@ -36,10 +36,10 @@
       }
     ]
   },
-  "Force": 20,
+  "Force": 15,
   "Direction": {
     "X": 0,
-    "Y": 4,
+    "Y": 1,
     "Z": -1
   },
   "AdjustVertical": false,
