@@ -35,7 +35,7 @@
   "EntityStatsOnHit": [
     {
       "EntityStatId": "SignatureEnergy",
-      "Amount": 1
+      "Amount": 2
     }
   ]
 }

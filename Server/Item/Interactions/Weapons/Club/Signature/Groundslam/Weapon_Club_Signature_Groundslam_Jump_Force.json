@@ -1,7 +1,7 @@
 {
   "Type": "ApplyForce",
   "Effects": {
-    "ItemAnimationId": "SwingDownChargedFalling",
+    "ItemAnimationId": "SwingDownCharging",
     "WorldSoundEventId": "SFX_Mace_T2_Signature_Launch",
     "LocalSoundEventId": "SFX_Mace_T2_Signature_Launch_Local",
     "CameraEffect": "Mace_Jump",
