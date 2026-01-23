@@ -38,7 +38,7 @@
           "TrailId": "Medium_Charged"
         }
       ],
-      "WorldSoundEventId": "SFX_Light_Melee_T2_Swing"
+      "WorldSoundEventId": "SFX_Light_Melee_T2_Lunge"
     },
     "Selector": {
       "Id": "Horizontal",
