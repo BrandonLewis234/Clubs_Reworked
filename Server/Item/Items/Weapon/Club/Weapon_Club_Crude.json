@@ -1,5 +1,5 @@
 {
-  "Parent": "Template_Weapon_Club",
+  "Parent": "Tango_Template_Weapon_Club",
   "TranslationProperties": {
     "Name": "server.items.Weapon_Club_Crude.name"
   },
