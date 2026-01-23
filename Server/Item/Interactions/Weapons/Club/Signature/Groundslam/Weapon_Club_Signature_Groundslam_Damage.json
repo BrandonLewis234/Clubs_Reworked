@@ -22,7 +22,7 @@
         "Y": 2,
         "Z": -1
       },
-      "Force": 22.0,
+      "Force": 22,
       "VelocityType": "Set"
     },
     "WorldParticles": [
