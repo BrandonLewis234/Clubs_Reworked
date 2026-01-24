@@ -1,48 +1,49 @@
 {
   "Parent": "Tango_Template_Weapon_Club",
   "TranslationProperties": {
-    "Name": "server.items.Weapon_Club_Crude.name"
+    "Name": "server.items.Weapon_Club_Cobalt.name"
   },
-  "Model": "Items/Weapons/Club/Crude.blockymodel",
-  "Texture": "Items/Weapons/Club/Crude_Texture.png",
-  "Icon": "Icons/ItemsGenerated/Weapon_Club_Crude.png",
-  "Quality": "Common",
+  "Model": "Items/Weapons/Club/Cobalt.blockymodel",
+  "Texture": "Items/Weapons/Club/Cobalt_Texture.png",
+  "Icon": "Icons/ItemsGenerated/Weapon_Club_Cobalt.png",
+  "Quality": "Rare",
   "PlayerAnimationsId": "Club",
   "Utility": {
     "Compatible": true
   },
-  "ItemLevel": 5,
+  "ItemLevel": 35,
   "Recipe": {
-    "TimeSeconds": 1.5,
+    "TimeSeconds": 4,
     "KnowledgeRequired": false,
     "Input": [
       {
-        "ResourceTypeId": "Wood_Trunk",
+        "ItemId": "Ingredient_Bar_Cobalt",
+        "Quantity": 4
+      },
+      {
+        "ItemId": "Ingredient_Fabric_Scrap_Shadoweave",
         "Quantity": 3
       },
       {
-        "ItemId": "Ingredient_Fibre",
-        "Quantity": 2
-      },
-      {
-        "ItemId": "Ingredient_Stick",
-        "Quantity": 2
+        "ItemId": "Ingredient_Leather_Heavy",
+        "Quantity": 4
       }
     ],
     "BenchRequirement": [
       {
-        "Id": "Workbench",
-        "Type": "Crafting",
+        "Type": "DiagramCrafting",
         "Categories": [
-          "Workbench_Survival"
-        ]
+          "Weapons.Club"
+        ],
+        "Id": "Armory"
       },
       {
         "Type": "Crafting",
         "Categories": [
           "Weapon_Club"
         ],
-        "Id": "Weapon_Bench"
+        "Id": "Weapon_Bench",
+        "RequiredTierLevel": 2
       }
     ]
   },
@@ -52,7 +53,7 @@
         {
           "Parent": "Weapon_Club_Primary_Swing_Left_Effect",
           "Effects": {
-            "WorldSoundEventId": "SFX_Club_Wood_Swing"
+            "WorldSoundEventId": "SFX_Club_Steel_Swing"
           }
         }
       ]
@@ -62,12 +63,11 @@
         {
           "Parent": "Weapon_Club_Primary_Swing_Left_Damage",
           "DamageEffects": {
-            "WorldSoundEventId": "SFX_Club_Wood_Impact",
-            "LocalSoundEventId": "SFX_Club_Wood_Impact"
+            "WorldSoundEventId": "SFX_Club_Steel_Impact"
           },
           "DamageCalculator": {
             "BaseDamage": {
-              "Physical": 3
+              "Physical": 10
             }
           }
         }
@@ -78,7 +78,7 @@
         {
           "Parent": "Weapon_Club_Primary_Swing_Right_Effect",
           "Effects": {
-            "WorldSoundEventId": "SFX_Club_Wood_Swing"
+            "WorldSoundEventId": "SFX_Club_Steel_Swing"
           }
         }
       ]
@@ -88,12 +88,11 @@
         {
           "Parent": "Weapon_Club_Primary_Swing_Right_Damage",
           "DamageEffects": {
-            "WorldSoundEventId": "SFX_Club_Wood_Impact",
-            "LocalSoundEventId": "SFX_Club_Wood_Impact"
+            "WorldSoundEventId": "SFX_Club_Steel_Impact"
           },
           "DamageCalculator": {
             "BaseDamage": {
-              "Physical": 4
+              "Physical": 12
             }
           }
         }
@@ -104,7 +103,7 @@
         {
           "Parent": "Weapon_Club_Primary_Swing_Up_Left_Effect",
           "Effects": {
-            "WorldSoundEventId": "SFX_Club_Wood_Swing"
+            "WorldSoundEventId": "SFX_Club_Steel_Swing"
           }
         }
       ]
@@ -114,12 +113,11 @@
         {
           "Parent": "Weapon_Club_Primary_Swing_Up_Left_Damage",
           "DamageEffects": {
-            "WorldSoundEventId": "SFX_Club_Wood_Impact",
-            "LocalSoundEventId": "SFX_Club_Wood_Impact"
+            "WorldSoundEventId": "SFX_Club_Steel_Impact"
           },
           "DamageCalculator": {
             "BaseDamage": {
-              "Physical": 6
+              "Physical": 16
             }
           }
         }
@@ -130,7 +128,7 @@
         {
           "Parent": "Weapon_Club_Primary_Swing_Down_Effect",
           "Effects": {
-            "WorldSoundEventId": "SFX_Club_Wood_Swing"
+            "WorldSoundEventId": "SFX_Club_Steel_Swing"
           }
         }
       ]
@@ -140,13 +138,22 @@
         {
           "Parent": "Weapon_Club_Primary_Swing_Down_Damage",
           "DamageEffects": {
-            "WorldSoundEventId": "SFX_Club_Wood_Impact",
-            "LocalSoundEventId": "SFX_Club_Wood_Impact"
+            "WorldSoundEventId": "SFX_Club_Steel_Impact"
           },
           "DamageCalculator": {
             "BaseDamage": {
-              "Physical": 10
+              "Physical": 20
             }
+          }
+        }
+      ]
+    },
+    "Swing_Down_Charged_Effect": {
+      "Interactions": [
+        {
+          "Parent": "Weapon_Club_Primary_Swing_Down_Effect",
+          "Effects": {
+            "WorldSoundEventId": "SFX_Longsword_Steel_Charged_Swing"
           }
         }
       ]
@@ -157,7 +164,7 @@
           "Parent": "Weapon_Club_Primary_Swing_Down_Charged_Damage",
           "DamageCalculator": {
             "BaseDamage": {
-              "Physical": 20
+              "Physical": 40
             }
           },
           "EntityStatsOnHit": [
@@ -167,8 +174,7 @@
             }
           ],
           "DamageEffects": {
-            "WorldSoundEventId": "SFX_Club_Wood_Impact",
-            "LocalSoundEventId": "SFX_Club_Wood_Impact"
+            "WorldSoundEventId": "SFX_Club_Steel_Impact"
           }
         }
       ]
@@ -179,13 +185,12 @@
           "Parent": "Weapon_Club_Signature_Groundslam_Damage",
           "DamageCalculator": {
             "BaseDamage": {
-              "Physical": 45
+              "Physical": 90
             }
           },
           "EntityStatsOnHit": [],
           "DamageEffects": {
-            "WorldSoundEventId": "SFX_Club_Wood_Impact",
-            "LocalSoundEventId": "SFX_Club_Wood_Impact"
+            "WorldSoundEventId": "SFX_Club_Steel_Impact"
           }
         }
       ]
@@ -202,6 +207,6 @@
       ]
     }
   },
-  "MaxDurability": 80,
+  "MaxDurability": 150,
   "DurabilityLossOnHit": 0.35
 }

@@ -92,6 +92,6 @@
       }
     ]
   },
-  "MaxDurability": 80,
-  "DurabilityLossOnHit": 0.5
+  "MaxDurability": 120,
+  "DurabilityLossOnHit": 0.35
 }

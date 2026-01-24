@@ -1,31 +1,31 @@
 {
   "Parent": "Tango_Template_Weapon_Club",
   "TranslationProperties": {
-    "Name": "server.items.Weapon_Club_Crude.name"
+    "Name": "server.items.Weapon_Club_Copper.name"
   },
-  "Model": "Items/Weapons/Club/Crude.blockymodel",
-  "Texture": "Items/Weapons/Club/Crude_Texture.png",
-  "Icon": "Icons/ItemsGenerated/Weapon_Club_Crude.png",
+  "Model": "Items/Weapons/Club/Copper.blockymodel",
+  "Texture": "Items/Weapons/Club/Copper_Texture.png",
+  "Icon": "Icons/ItemsGenerated/Weapon_Club_Copper.png",
   "Quality": "Common",
   "PlayerAnimationsId": "Club",
   "Utility": {
     "Compatible": true
   },
-  "ItemLevel": 5,
+  "ItemLevel": 10,
   "Recipe": {
-    "TimeSeconds": 1.5,
+    "TimeSeconds": 3,
     "KnowledgeRequired": false,
     "Input": [
       {
+        "ItemId": "Ingredient_Bar_Copper",
+        "Quantity": 4
+      },
+      {
         "ResourceTypeId": "Wood_Trunk",
-        "Quantity": 3
+        "Quantity": 6
       },
       {
         "ItemId": "Ingredient_Fibre",
-        "Quantity": 2
-      },
-      {
-        "ItemId": "Ingredient_Stick",
         "Quantity": 2
       }
     ],
@@ -52,7 +52,7 @@
         {
           "Parent": "Weapon_Club_Primary_Swing_Left_Effect",
           "Effects": {
-            "WorldSoundEventId": "SFX_Club_Wood_Swing"
+            "WorldSoundEventId": "SFX_Club_Steel_Swing"
           }
         }
       ]
@@ -62,12 +62,11 @@
         {
           "Parent": "Weapon_Club_Primary_Swing_Left_Damage",
           "DamageEffects": {
-            "WorldSoundEventId": "SFX_Club_Wood_Impact",
-            "LocalSoundEventId": "SFX_Club_Wood_Impact"
+            "WorldSoundEventId": "SFX_Club_Steel_Impact"
           },
           "DamageCalculator": {
             "BaseDamage": {
-              "Physical": 3
+              "Physical": 6
             }
           }
         }
@@ -78,7 +77,7 @@
         {
           "Parent": "Weapon_Club_Primary_Swing_Right_Effect",
           "Effects": {
-            "WorldSoundEventId": "SFX_Club_Wood_Swing"
+            "WorldSoundEventId": "SFX_Club_Steel_Swing"
           }
         }
       ]
@@ -88,12 +87,11 @@
         {
           "Parent": "Weapon_Club_Primary_Swing_Right_Damage",
           "DamageEffects": {
-            "WorldSoundEventId": "SFX_Club_Wood_Impact",
-            "LocalSoundEventId": "SFX_Club_Wood_Impact"
+            "WorldSoundEventId": "SFX_Club_Steel_Impact"
           },
           "DamageCalculator": {
             "BaseDamage": {
-              "Physical": 4
+              "Physical": 7
             }
           }
         }
@@ -104,7 +102,7 @@
         {
           "Parent": "Weapon_Club_Primary_Swing_Up_Left_Effect",
           "Effects": {
-            "WorldSoundEventId": "SFX_Club_Wood_Swing"
+            "WorldSoundEventId": "SFX_Club_Steel_Swing"
           }
         }
       ]
@@ -114,12 +112,11 @@
         {
           "Parent": "Weapon_Club_Primary_Swing_Up_Left_Damage",
           "DamageEffects": {
-            "WorldSoundEventId": "SFX_Club_Wood_Impact",
-            "LocalSoundEventId": "SFX_Club_Wood_Impact"
+            "WorldSoundEventId": "SFX_Club_Steel_Impact"
           },
           "DamageCalculator": {
             "BaseDamage": {
-              "Physical": 6
+              "Physical": 9
             }
           }
         }
@@ -130,7 +127,7 @@
         {
           "Parent": "Weapon_Club_Primary_Swing_Down_Effect",
           "Effects": {
-            "WorldSoundEventId": "SFX_Club_Wood_Swing"
+            "WorldSoundEventId": "SFX_Club_Steel_Swing"
           }
         }
       ]
@@ -140,13 +137,22 @@
         {
           "Parent": "Weapon_Club_Primary_Swing_Down_Damage",
           "DamageEffects": {
-            "WorldSoundEventId": "SFX_Club_Wood_Impact",
-            "LocalSoundEventId": "SFX_Club_Wood_Impact"
+            "WorldSoundEventId": "SFX_Club_Steel_Impact"
           },
           "DamageCalculator": {
             "BaseDamage": {
-              "Physical": 10
+              "Physical": 13
             }
+          }
+        }
+      ]
+    },
+    "Swing_Down_Charged_Effect": {
+      "Interactions": [
+        {
+          "Parent": "Weapon_Club_Primary_Swing_Down_Effect",
+          "Effects": {
+            "WorldSoundEventId": "SFX_Longsword_Steel_Charged_Swing"
           }
         }
       ]
@@ -157,7 +163,7 @@
           "Parent": "Weapon_Club_Primary_Swing_Down_Charged_Damage",
           "DamageCalculator": {
             "BaseDamage": {
-              "Physical": 20
+              "Physical": 26
             }
           },
           "EntityStatsOnHit": [
@@ -167,8 +173,7 @@
             }
           ],
           "DamageEffects": {
-            "WorldSoundEventId": "SFX_Club_Wood_Impact",
-            "LocalSoundEventId": "SFX_Club_Wood_Impact"
+            "WorldSoundEventId": "SFX_Club_Steel_Impact"
           }
         }
       ]
@@ -179,13 +184,12 @@
           "Parent": "Weapon_Club_Signature_Groundslam_Damage",
           "DamageCalculator": {
             "BaseDamage": {
-              "Physical": 45
+              "Physical": 60
             }
           },
           "EntityStatsOnHit": [],
           "DamageEffects": {
-            "WorldSoundEventId": "SFX_Club_Wood_Impact",
-            "LocalSoundEventId": "SFX_Club_Wood_Impact"
+            "WorldSoundEventId": "SFX_Club_Steel_Impact"
           }
         }
       ]
@@ -202,6 +206,6 @@
       ]
     }
   },
-  "MaxDurability": 80,
+  "MaxDurability": 100,
   "DurabilityLossOnHit": 0.35
 }

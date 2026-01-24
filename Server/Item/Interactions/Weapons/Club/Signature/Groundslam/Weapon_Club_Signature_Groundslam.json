@@ -40,7 +40,7 @@
         "DefaultOk": true,
         "DefaultValue": {
           "Interactions": [
-            "Weapon_Mace_Signature_Groundslam_Swing_Selector"
+            "Weapon_Club_Signature_Groundslam_Swing_Selector"
           ]
         }
       },
