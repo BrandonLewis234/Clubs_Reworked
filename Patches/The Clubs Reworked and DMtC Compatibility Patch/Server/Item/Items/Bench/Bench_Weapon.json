@@ -82,6 +82,11 @@
           "Name": "server.benchCategories.club"
         },        
         {
+          "Id": "Weapon_Longsword",
+          "Icon": "Icons/CraftingCategories/Armory/Longsword.png",
+          "Name": "server.benchCategories.longsword"
+        },
+        {
           "Id": "Weapon_Mace",
           "Icon": "Icons/CraftingCategories/Armory/Mace.png",
           "Name": "server.benchCategories.mace"
@@ -95,6 +100,11 @@
           "Id": "Weapon_Daggers",
           "Icon": "Icons/CraftingCategories/Armory/Daggers.png",
           "Name": "server.benchCategories.daggers"
+        },
+        {
+          "Id": "Weapon_Spear",
+          "Icon": "Icons/CraftingCategories/Armory/Spear.png",
+          "Name": "server.benchCategories.spear"
         },
         {
           "Id": "Weapon_Bow",
