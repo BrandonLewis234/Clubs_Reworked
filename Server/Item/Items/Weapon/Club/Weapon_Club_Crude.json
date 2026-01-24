@@ -67,7 +67,7 @@
           },
           "DamageCalculator": {
             "BaseDamage": {
-              "Physical": 5
+              "Physical": 3
             }
           }
         }
@@ -93,7 +93,7 @@
           },
           "DamageCalculator": {
             "BaseDamage": {
-              "Physical": 5
+              "Physical": 4
             }
           }
         }
@@ -119,7 +119,7 @@
           },
           "DamageCalculator": {
             "BaseDamage": {
-              "Physical": 5
+              "Physical": 6
             }
           }
         }
@@ -145,7 +145,7 @@
           },
           "DamageCalculator": {
             "BaseDamage": {
-              "Physical": 5
+              "Physical": 10
             }
           }
         }
@@ -157,7 +157,7 @@
           "Parent": "Weapon_Club_Primary_Swing_Down_Charged_Damage",
           "DamageCalculator": {
             "BaseDamage": {
-              "Physical": 18
+              "Physical": 20
             }
           },
           "EntityStatsOnHit": [
@@ -203,5 +203,5 @@
     }
   },
   "MaxDurability": 80,
-  "DurabilityLossOnHit": 0.45
+  "DurabilityLossOnHit": 0.35
 }
