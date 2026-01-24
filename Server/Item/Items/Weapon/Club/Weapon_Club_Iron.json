@@ -163,7 +163,7 @@
           "Parent": "Weapon_Club_Primary_Swing_Down_Charged_Damage",
           "DamageCalculator": {
             "BaseDamage": {
-              "Physical": 32
+              "Physical": 40
             }
           },
           "EntityStatsOnHit": [
