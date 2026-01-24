@@ -1,0 +1,20 @@
+{
+  "Group": "TangoMango",
+  "Name": "Clubs Reworked DMtC Compatibility Patch",
+  "Version": "1.0.0",
+  "Description": "A compatibility patch for Clubs Reworked to work with Didn't Make the Cut.",
+  "Authors": [
+    {
+      "Name": "TangoMango",
+      "Email": "",
+      "Url": "https://github.com/BrandonLewis234/Clubs_Reworked"
+    }
+  ],
+  "Website": "",
+  "Dependencies": {"TangoMango": "Clubs Reworked", "nty": "Didn't Make the Cut!"},
+  "OptionalDependencies": {},
+  "LoadBefore": {},
+  "DisabledByDefault": false,
+  "IncludesAssetPack": false,
+  "SubPlugins": []
+}
