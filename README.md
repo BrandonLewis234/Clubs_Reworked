@@ -5,7 +5,8 @@
 Previously, clubs were only usable by mobs, and spawning them in creative mode had limited usage — no blocking and no signature move.
 
 This mod aims to change that.
-Overview
+
+## Overview
 
 Clubs are a new one-handed melee weapon with:
 
