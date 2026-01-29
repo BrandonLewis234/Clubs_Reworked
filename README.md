@@ -49,4 +49,4 @@ The other clubs are craftable in the blacksmith's bench─found under the "maces
   
 ## Compatibility
 
-If you notice any incompatibility with any other mods, please let me know, and I can see what I can do!
+If you notice any incompatibility with any other mods, please <a href="https://github.com/BrandonLewis234/Clubs_Reworked/issues" target="_blank">let me know</a>, and I can see what I can do!
