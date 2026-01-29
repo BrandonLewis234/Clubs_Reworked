@@ -1,58 +1,50 @@
 # <a href="https://www.curseforge.com/hytale/mods/clubs-reworked" target="_blank">Clubs Reworked</a>
 
-**Introduces clubs as a new weapon type usable by the player.**
+## Introduces clubs as a new weapon type usable by the player.
 
 Previously, clubs were only usable by mobs, and spawning them in creative mode had limited usage — no blocking and no signature move.
 
 This mod aims to change that.
+Overview
 
-***
+Clubs are a new one-handed melee weapon with:
 
-## Overview
+* A unique attack pattern
+* Charged attack
+* Signature move
 
-Clubs are a new **one-handed melee weapon** with:
+## Current Status (Version 1.4.0)
 
-*   A unique attack pattern
-*   Charged attack
-*   Signature move
+The following clubs are implemented:
 
-They will be craftable in the standard crafting benches.
+* Crude Club
+* Copper Club
+* Iron Club
+* Thorium Club
+* Cobalt Club
+* Adamantite Club
+* Mithril Club
 
-***
+The Crude club is craftable without a workbench.
 
-## Current Status (Version 1.0.0)
+The other clubs are craftable in the blacksmith's bench─found under the "maces" category─with tier requirements following with their rarity.
+Clubs Planned for Implementation
 
-*   Only the **Crude Club** is complete.
+* Rusty Iron Club
+* Onyxium Club
+* Scrap Club
+* Tribal Club
+* Stone Trork Club
+* Doomed Outlander Club
 
-In time, the goal is to fully implement every club that exists in the game but is currently unusable by players.
+## Plans
 
-***
+* Implement the clubs that are unique to mobs, and add them to their drop tables.
 
-## Clubs Implemented
+### Further Goals
 
-*   Crude Club
+* Once the other clubs are implemented, the mod will also aim to implement the flail and zombie arm weapon types, which are in a similar situation to the club.
+  
+## Compatibility
 
-***
-
-## Clubs Planned for Implementation
-
-*   Rusty Iron Club
-*   Iron Club
-*   Copper Club
-*   Thorium Club
-*   Cobalt Club
-*   Adamantine Club
-*   Mithril Club
-*   Onyxium Club
-*   Scrap Club
-*   Tribal Club
-*   Stone Trork Club
-*   Doomed Outlander Club
-
-***
-
-## Further Plans
-
-Once the other clubs are implemented, the mod will also aim to implement the **flail** and **zombie arm** weapon types, which are in a similar situation to the club.
-
-***
+If you notice any incompatibility with any other mods, please let me know, and I can see what I can do!
