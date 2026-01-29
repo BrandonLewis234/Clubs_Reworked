@@ -29,7 +29,8 @@ The following clubs are implemented:
 The Crude club is craftable without a workbench.
 
 The other clubs are craftable in the blacksmith's bench─found under the "maces" category─with tier requirements following with their rarity.
-Clubs Planned for Implementation
+
+## Clubs Planned for Implementation
 
 * Rusty Iron Club
 * Onyxium Club
