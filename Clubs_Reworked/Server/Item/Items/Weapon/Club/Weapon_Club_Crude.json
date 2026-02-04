@@ -11,7 +11,7 @@
   "Utility": {
     "Compatible": true
   },
-  "ItemLevel": 5,
+  "ItemLevel": 7,
   "Recipe": {
     "TimeSeconds": 1.5,
     "KnowledgeRequired": false,
@@ -30,6 +30,13 @@
       }
     ],
     "BenchRequirement": [
+      {
+        "Id": "Fieldcraft",
+        "Type": "Crafting",
+        "Categories": [
+          "Tools"
+        ]
+      },
       {
         "Id": "Workbench",
         "Type": "Crafting",
