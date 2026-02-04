@@ -2,7 +2,9 @@
   "Type": "Selector",
   "RunTime": 0.167,
   "Effects": {
-    "ItemAnimationId": "SpinSwingLeftCharged"
+    "ItemAnimationId": "SpinSwingLeftCharged",
+    "LocalSoundEventId": "SFX_Flail_Swing_Left_Local",
+    "WorldSoundEventId": "SFX_Flail_Swing"
   },
   "Selector": {
     "Id": "Horizontal",

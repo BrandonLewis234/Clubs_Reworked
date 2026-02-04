@@ -1,6 +1,6 @@
 {
   "Type": "Repeat",
-  "Repeat": 10,
+  "Repeat": 15,
   "HorizontalSpeedMultiplier": 0.6,
   "ForkInteractions": {
     "Interactions": [

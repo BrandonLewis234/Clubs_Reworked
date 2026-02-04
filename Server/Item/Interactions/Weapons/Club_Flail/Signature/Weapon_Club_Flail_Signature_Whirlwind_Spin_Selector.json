@@ -1,6 +1,6 @@
 {
   "Type": "Selector",
-  "RunTime": 0.1,
+  "RunTime": 0.125,
   "Selector": {
     "Id": "Horizontal",
     "Direction": "ToLeft",

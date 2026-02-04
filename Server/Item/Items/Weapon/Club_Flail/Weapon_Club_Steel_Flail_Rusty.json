@@ -226,7 +226,7 @@
           "Parent": "Weapon_Club_Flail_Signature_Whirlwind_Damage",
           "DamageCalculator": {
             "BaseDamage": {
-              "Physical": 9
+              "Physical": 12
             }
           },
           "EntityStatsOnHit": [],
