@@ -1,0 +1,12 @@
+{
+  "Type": "Simple",
+  "Effects": {
+    "ItemAnimationId": "SpinSwingLeftCharging"
+  },
+  "AngledWielding": {
+    "Angle": 45,
+    "AngleDistance": 90
+  },
+  "RunTime": 0.167,
+  "HorizontalSpeedMultiplier": 0.6
+}
