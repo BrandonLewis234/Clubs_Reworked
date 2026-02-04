@@ -1,6 +1,6 @@
 {
   "TranslationProperties": {
-    "Name": "server.items.Weapon_Club_Steel_Flail_Rusty.name"
+    "Name": "server.items.Template_Weapon_Club_Flail.name"
   },
   "Categories": [
     "Items.Weapons"
