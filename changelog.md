@@ -1,8 +1,8 @@
-#### v1.4.0
+#### v1.5.0
 
-* Moved Clubs to the "Mace" category of the Blacksmith bench (to ensure compatibility with other mods that modify the blacksmith bench)
+* Added Rusty Steel Flail as a craftable weapon
 
-  * This will mean that if you installed the compatibility patch for DMtC, it is no longer needed
+  * Unique special and attack pattern.
+  * **Note**: Animations for the flail are currently limited unless I were to make them myself
 
-* Added Mithril club
-* Removed copper club from the survival workbench
+* Adjusted sounds for various clubs
