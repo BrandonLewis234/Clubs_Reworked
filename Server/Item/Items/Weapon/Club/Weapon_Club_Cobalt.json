@@ -33,14 +33,14 @@
       {
         "Type": "DiagramCrafting",
         "Categories": [
-          "Weapons.Club"
+          "Weapons.Mace"
         ],
         "Id": "Armory"
       },
       {
         "Type": "Crafting",
         "Categories": [
-          "Weapon_Club"
+          "Weapon_Mace"
         ],
         "Id": "Weapon_Bench",
         "RequiredTierLevel": 2

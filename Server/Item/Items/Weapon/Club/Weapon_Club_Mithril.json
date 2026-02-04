@@ -1,32 +1,32 @@
 {
   "Parent": "Tango_Template_Weapon_Club",
   "TranslationProperties": {
-    "Name": "server.items.Weapon_Club_Adamantite.name"
+    "Name": "server.items.Weapon_Club_Mithril.name"
   },
-  "Model": "Items/Weapons/Club/Adamantite.blockymodel",
-  "Texture": "Items/Weapons/Club/Adamantite_Texture.png",
-  "Icon": "Icons/ItemsGenerated/Weapon_Club_Adamantite.png",
-  "Quality": "Rare",
+  "Model": "Items/Weapons/Club/Mithril.blockymodel",
+  "Texture": "Items/Weapons/Club/Mithril_Texture.png",
+  "Icon": "Icons/ItemsGenerated/Weapon_Club_Mithril.png",
+  "Quality": "Epic",
   "PlayerAnimationsId": "Club",
   "Utility": {
     "Compatible": true
   },
-  "ItemLevel": 40,
+  "ItemLevel": 50,
   "Recipe": {
-    "TimeSeconds": 4.5,
+    "TimeSeconds": 5,
     "KnowledgeRequired": false,
     "Input": [
       {
-        "ItemId": "Ingredient_Bar_Adamantite",
+        "ItemId": "Ingredient_Bar_Mithril",
         "Quantity": 4
       },
       {
-        "ItemId": "Ingredient_Fabric_Scrap_Cindercloth",
-        "Quantity": 3
+        "ItemId": "Ingredient_Leather_Storm",
+        "Quantity": 4
       },
       {
-        "ItemId": "Ingredient_Leather_Heavy",
-        "Quantity": 4
+        "ItemId": "Ingredient_Voidheart",
+        "Quantity": 1
       }
     ],
     "BenchRequirement": [
@@ -67,7 +67,7 @@
           },
           "DamageCalculator": {
             "BaseDamage": {
-              "Physical": 14
+              "Physical": 18
             }
           }
         }
@@ -92,7 +92,7 @@
           },
           "DamageCalculator": {
             "BaseDamage": {
-              "Physical": 15
+              "Physical": 19
             }
           }
         }
@@ -117,7 +117,7 @@
           },
           "DamageCalculator": {
             "BaseDamage": {
-              "Physical": 20
+              "Physical": 24
             }
           }
         }
@@ -142,7 +142,7 @@
           },
           "DamageCalculator": {
             "BaseDamage": {
-              "Physical": 24
+              "Physical": 28
             }
           }
         }
@@ -164,7 +164,7 @@
           "Parent": "Weapon_Club_Primary_Swing_Down_Charged_Damage",
           "DamageCalculator": {
             "BaseDamage": {
-              "Physical": 48
+              "Physical": 56
             }
           },
           "EntityStatsOnHit": [
@@ -185,7 +185,7 @@
           "Parent": "Weapon_Club_Signature_Groundslam_Damage",
           "DamageCalculator": {
             "BaseDamage": {
-              "Physical": 110
+              "Physical": 125
             }
           },
           "EntityStatsOnHit": [],

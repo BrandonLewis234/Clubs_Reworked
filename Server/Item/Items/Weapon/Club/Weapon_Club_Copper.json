@@ -31,16 +31,9 @@
     ],
     "BenchRequirement": [
       {
-        "Id": "Workbench",
         "Type": "Crafting",
         "Categories": [
-          "Workbench_Survival"
-        ]
-      },
-      {
-        "Type": "Crafting",
-        "Categories": [
-          "Weapon_Club"
+          "Weapon_Mace"
         ],
         "Id": "Weapon_Bench"
       }
