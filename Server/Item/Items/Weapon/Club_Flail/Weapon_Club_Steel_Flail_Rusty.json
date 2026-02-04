@@ -11,7 +11,7 @@
   "Utility": {
     "Compatible": true
   },
-  "ItemLevel": 20,
+  "ItemLevel": 18,
   "Recipe": {
     "TimeSeconds": 3.5,
     "KnowledgeRequired": false,
