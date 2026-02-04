@@ -53,7 +53,7 @@
         {
           "Parent": "Weapon_Club_Primary_Swing_Left_Effect",
           "Effects": {
-            "WorldSoundEventId": "SFX_Club_Special_Swing"
+            "WorldSoundEventId": "SFX_Club_Steel_Swing"
           }
         }
       ]
@@ -63,7 +63,7 @@
         {
           "Parent": "Weapon_Club_Primary_Swing_Left_Damage",
           "DamageEffects": {
-            "WorldSoundEventId": "SFX_Club_Special_Impact"
+            "WorldSoundEventId": "SFX_Mace_T2_Impact"
           },
           "DamageCalculator": {
             "BaseDamage": {
@@ -78,7 +78,7 @@
         {
           "Parent": "Weapon_Club_Primary_Swing_Right_Effect",
           "Effects": {
-            "WorldSoundEventId": "SFX_Club_Special_Swing"
+            "WorldSoundEventId": "SFX_Club_Steel_Swing"
           }
         }
       ]
@@ -88,7 +88,7 @@
         {
           "Parent": "Weapon_Club_Primary_Swing_Right_Damage",
           "DamageEffects": {
-            "WorldSoundEventId": "SFX_Club_Special_Impact"
+            "WorldSoundEventId": "SFX_Mace_T2_Impact"
           },
           "DamageCalculator": {
             "BaseDamage": {
@@ -103,7 +103,7 @@
         {
           "Parent": "Weapon_Club_Primary_Swing_Up_Left_Effect",
           "Effects": {
-            "WorldSoundEventId": "SFX_Club_Special_Swing"
+            "WorldSoundEventId": "SFX_Club_Steel_Swing"
           }
         }
       ]
@@ -113,7 +113,7 @@
         {
           "Parent": "Weapon_Club_Primary_Swing_Up_Left_Damage",
           "DamageEffects": {
-            "WorldSoundEventId": "SFX_Club_Special_Impact"
+            "WorldSoundEventId": "SFX_Mace_T2_Impact"
           },
           "DamageCalculator": {
             "BaseDamage": {
@@ -128,7 +128,7 @@
         {
           "Parent": "Weapon_Club_Primary_Swing_Down_Effect",
           "Effects": {
-            "WorldSoundEventId": "SFX_Club_Special_Swing"
+            "WorldSoundEventId": "SFX_Club_Steel_Swing"
           }
         }
       ]
@@ -138,7 +138,7 @@
         {
           "Parent": "Weapon_Club_Primary_Swing_Down_Damage",
           "DamageEffects": {
-            "WorldSoundEventId": "SFX_Club_Special_Impact"
+            "WorldSoundEventId": "SFX_Mace_T2_Impact"
           },
           "DamageCalculator": {
             "BaseDamage": {
@@ -153,7 +153,7 @@
         {
           "Parent": "Weapon_Club_Primary_Swing_Down_Effect",
           "Effects": {
-            "WorldSoundEventId": "SFX_Club_Special_Swing"
+            "WorldSoundEventId": "SFX_Club_Steel_Swing"
           }
         }
       ]
@@ -174,7 +174,7 @@
             }
           ],
           "DamageEffects": {
-            "WorldSoundEventId": "SFX_Club_Steel_Impact"
+            "WorldSoundEventId": "SFX_Mace_T2_Impact"
           }
         }
       ]
@@ -190,7 +190,7 @@
           },
           "EntityStatsOnHit": [],
           "DamageEffects": {
-            "WorldSoundEventId": "SFX_Club_Special_Impact"
+            "WorldSoundEventId": "SFX_Mace_T2_Signature_Impact"
           }
         }
       ]

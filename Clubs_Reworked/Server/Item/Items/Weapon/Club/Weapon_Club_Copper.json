@@ -182,7 +182,7 @@
           },
           "EntityStatsOnHit": [],
           "DamageEffects": {
-            "WorldSoundEventId": "SFX_Club_Steel_Impact"
+            "WorldSoundEventId": "SFX_Club_Special_Impact"
           }
         }
       ]
