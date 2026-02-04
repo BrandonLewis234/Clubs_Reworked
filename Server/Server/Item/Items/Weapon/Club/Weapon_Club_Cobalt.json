@@ -1,0 +1,212 @@
+{
+  "Parent": "Tango_Template_Weapon_Club",
+  "TranslationProperties": {
+    "Name": "server.items.Weapon_Club_Cobalt.name"
+  },
+  "Model": "Items/Weapons/Club/Cobalt.blockymodel",
+  "Texture": "Items/Weapons/Club/Cobalt_Texture.png",
+  "Icon": "Icons/ItemsGenerated/Weapon_Club_Cobalt.png",
+  "Quality": "Rare",
+  "PlayerAnimationsId": "Club",
+  "Utility": {
+    "Compatible": true
+  },
+  "ItemLevel": 35,
+  "Recipe": {
+    "TimeSeconds": 4,
+    "KnowledgeRequired": false,
+    "Input": [
+      {
+        "ItemId": "Ingredient_Bar_Cobalt",
+        "Quantity": 4
+      },
+      {
+        "ItemId": "Ingredient_Fabric_Scrap_Shadoweave",
+        "Quantity": 3
+      },
+      {
+        "ItemId": "Ingredient_Leather_Heavy",
+        "Quantity": 4
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Type": "DiagramCrafting",
+        "Categories": [
+          "Weapons.Mace"
+        ],
+        "Id": "Armory"
+      },
+      {
+        "Type": "Crafting",
+        "Categories": [
+          "Weapon_Mace"
+        ],
+        "Id": "Weapon_Bench",
+        "RequiredTierLevel": 2
+      }
+    ]
+  },
+  "InteractionVars": {
+    "Swing_Left_Effect": {
+      "Interactions": [
+        {
+          "Parent": "Weapon_Club_Primary_Swing_Left_Effect",
+          "Effects": {
+            "WorldSoundEventId": "SFX_Club_Steel_Swing"
+          }
+        }
+      ]
+    },
+    "Swing_Left_Damage": {
+      "Interactions": [
+        {
+          "Parent": "Weapon_Club_Primary_Swing_Left_Damage",
+          "DamageEffects": {
+            "WorldSoundEventId": "SFX_Club_Steel_Impact"
+          },
+          "DamageCalculator": {
+            "BaseDamage": {
+              "Physical": 10
+            }
+          }
+        }
+      ]
+    },
+    "Swing_Right_Effect": {
+      "Interactions": [
+        {
+          "Parent": "Weapon_Club_Primary_Swing_Right_Effect",
+          "Effects": {
+            "WorldSoundEventId": "SFX_Club_Steel_Swing"
+          }
+        }
+      ]
+    },
+    "Swing_Right_Damage": {
+      "Interactions": [
+        {
+          "Parent": "Weapon_Club_Primary_Swing_Right_Damage",
+          "DamageEffects": {
+            "WorldSoundEventId": "SFX_Club_Steel_Impact"
+          },
+          "DamageCalculator": {
+            "BaseDamage": {
+              "Physical": 12
+            }
+          }
+        }
+      ]
+    },
+    "Swing_Up_Left_Effect": {
+      "Interactions": [
+        {
+          "Parent": "Weapon_Club_Primary_Swing_Up_Left_Effect",
+          "Effects": {
+            "WorldSoundEventId": "SFX_Club_Steel_Swing"
+          }
+        }
+      ]
+    },
+    "Swing_Up_Left_Damage": {
+      "Interactions": [
+        {
+          "Parent": "Weapon_Club_Primary_Swing_Up_Left_Damage",
+          "DamageEffects": {
+            "WorldSoundEventId": "SFX_Club_Steel_Impact"
+          },
+          "DamageCalculator": {
+            "BaseDamage": {
+              "Physical": 16
+            }
+          }
+        }
+      ]
+    },
+    "Swing_Down_Effect": {
+      "Interactions": [
+        {
+          "Parent": "Weapon_Club_Primary_Swing_Down_Effect",
+          "Effects": {
+            "WorldSoundEventId": "SFX_Club_Steel_Swing"
+          }
+        }
+      ]
+    },
+    "Swing_Down_Damage": {
+      "Interactions": [
+        {
+          "Parent": "Weapon_Club_Primary_Swing_Down_Damage",
+          "DamageEffects": {
+            "WorldSoundEventId": "SFX_Club_Steel_Impact"
+          },
+          "DamageCalculator": {
+            "BaseDamage": {
+              "Physical": 20
+            }
+          }
+        }
+      ]
+    },
+    "Swing_Down_Charged_Effect": {
+      "Interactions": [
+        {
+          "Parent": "Weapon_Club_Primary_Swing_Down_Effect",
+          "Effects": {
+            "WorldSoundEventId": "SFX_Longsword_Steel_Charged_Swing"
+          }
+        }
+      ]
+    },
+    "Swing_Down_Charged_Damage": {
+      "Interactions": [
+        {
+          "Parent": "Weapon_Club_Primary_Swing_Down_Charged_Damage",
+          "DamageCalculator": {
+            "BaseDamage": {
+              "Physical": 40
+            }
+          },
+          "EntityStatsOnHit": [
+            {
+              "EntityStatId": "SignatureEnergy",
+              "Amount": 2
+            }
+          ],
+          "DamageEffects": {
+            "WorldSoundEventId": "SFX_Club_Steel_Impact"
+          }
+        }
+      ]
+    },
+    "Groundslam_Damage": {
+      "Interactions": [
+        {
+          "Parent": "Weapon_Club_Signature_Groundslam_Damage",
+          "DamageCalculator": {
+            "BaseDamage": {
+              "Physical": 90
+            }
+          },
+          "EntityStatsOnHit": [],
+          "DamageEffects": {
+            "WorldSoundEventId": "SFX_Club_Steel_Impact"
+          }
+        }
+      ]
+    },
+    "Guard_Wield": {
+      "Interactions": [
+        {
+          "Parent": "Weapon_Club_Secondary_Guard_Wield",
+          "StaminaCost": {
+            "Value": 10,
+            "CostType": "Damage"
+          }
+        }
+      ]
+    }
+  },
+  "MaxDurability": 150,
+  "DurabilityLossOnHit": 0.35
+}
