@@ -1,3 +1,7 @@
+#### v1.5.1
+
+* Fixed crude club not appearning in pocket crafting
+
 #### v1.5.0
 
 * Added Rusty Steel Flail as a craftable weapon
