@@ -1,3 +1,7 @@
+#### v1.6.0
+
+* Updated server version to be compatible with Update 3
+
 #### v1.5.1
 
 * Fixed crude club not appearning in pocket crafting
