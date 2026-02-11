@@ -1,6 +1,4 @@
-<h1 style="color: #b96ad9;"><span style="color: #fff;"><strong>Clubs Reworked</strong></span></h1><h2 style="color: #b96ad9;"><span style="color: #eccafa;"><strong>Introduces clubs and a flail as new weapon types usable by the player.</strong></span></h2>
-
-<span style="color: #fff;">Previously, clubs were only usable by mobs, and spawning them in creative mode had limited usage — no blocking and no signature move.</span>
+<h1 style="color: #b96ad9;"><span style="color: #fff;"><strong><a href="https://www.curseforge.com/hytale/mods/clubs-reworked" target="_blank">Clubs Reworked</a></strong></span></h1><h2 style="color: #b96ad9;"><span style="color: #eccafa;"><strong>Introduces clubs and a flail as new weapon types usable by the player.</strong></span></h2>
 
 <span style="color: #fff;">This mod aims to change that.</span>
 
