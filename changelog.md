@@ -1,6 +1,7 @@
 #### v1.6.0
 
 * Updated server version to be compatible with Update 3
+* Fixed some damage values
 
 #### v1.5.1
 
