@@ -1,0 +1,11 @@
+{
+  "Type": "Chaining",
+  "ChainingAllowance": 1.2,
+  "Next": [
+    "Club_Flail_Swing_Left",
+    "Club_Flail_Swing_Right",
+    "Club_Flail_Swing_Up_Left",
+    "Club_Flail_Swing_Down_Left",
+    "Club_Flail_Swing_Up_Right"
+  ]
+}

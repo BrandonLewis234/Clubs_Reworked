@@ -1,0 +1,66 @@
+{
+  "Type": "Simple",
+  "Effects": {
+    "ItemAnimationId": "SwingRight"
+  },
+  "$Comment": "Prepare Delay",
+  "RunTime": 0.267,
+  "Next": {
+    "Type": "Parallel",
+    "$Comment": "Make sure this parallel interaction is needed and can't be optimized away",
+    "Interactions": [
+      {
+        "Interactions": [
+          {
+            "Type": "Selector",
+            "$Comment": "Length of Combat",
+            "RunTime": 0.111,
+            "Selector": {
+              "Id": "Horizontal",
+              "Direction": "ToRight",
+              "TestLineOfSight": true,
+              "ExtendTop": 0.5,
+              "ExtendBottom": 0.5,
+              "StartDistance": 0.5,
+              "EndDistance": 2.5,
+              "Length": 90,
+              "RollOffset": -30,
+              "YawStartOffset": -45
+            },
+            "HitEntity": {
+              "Interactions": [
+                {
+                  "Type": "Replace",
+                  "DefaultValue": {
+                    "Interactions": [
+                      "Weapon_Club_Primary_Swing_Right_Damage"
+                    ]
+                  },
+                  "Var": "Swing_Right_Damage"
+                }
+              ]
+            },
+            "Next": {
+              "Type": "Simple",
+              "$Comment": "Pad the interaction length",
+              "RunTime": 0.178
+            }
+          }
+        ]
+      },
+      {
+        "Interactions": [
+          {
+            "Type": "Replace",
+            "Var": "Swing_Right_Effect",
+            "DefaultValue": {
+              "Interactions": [
+                "Weapon_Club_Primary_Swing_Right_Effect"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

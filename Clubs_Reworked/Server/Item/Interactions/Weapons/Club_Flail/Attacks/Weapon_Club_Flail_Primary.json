@@ -1,0 +1,17 @@
+{
+  "Type": "Charging",
+  "Next": {
+    "0":
+      "Weapon_Club_Flail_Primary_Chain",
+    "0.2": {
+      "Type": "Replace",
+      "Var": "Spin_Attack",
+      "DefaultOk": true,
+      "DefaultValue": {
+        "Interactions": [
+          "Club_Flail_Spin_Swing_Left_Charging" 
+        ] 
+      }
+    }
+  }
+}
