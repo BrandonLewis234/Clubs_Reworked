@@ -4,8 +4,8 @@
   "Next": [
     "Club_Flail_Swing_Left",
     "Club_Flail_Swing_Right",
-    "Club_Flail_Swing_Up_Left",
-    "Club_Flail_Swing_Down_Left",
-    "Club_Flail_Swing_Up_Right"
+    "Weapon_Club_Flail_Swing_Up_Left",
+    "Weapon_Club_Flail_Swing_Down_Left",
+    "Weapon_Club_Flail_Swing_Up_Right"
   ]
 }

@@ -1,7 +1,7 @@
 {
   "Type": "Simple",
   "Effects": {
-    "ItemAnimationId": "SpinSwingLeftCharging"
+    "ItemAnimationId": "SpinSwingRepeat"
   },
   "RunTime": 0.167,
   "HorizontalSpeedMultiplier": 0.6

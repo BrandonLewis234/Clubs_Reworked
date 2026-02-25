@@ -7,22 +7,22 @@
       "position": [
         {
           "time": 0,
-          "delta": {"x": 26, "y": -25, "z": 55.2},
+          "delta": {"x": 19, "y": -28, "z": 55.2},
           "interpolationType": "smooth"
         },
         {
           "time": 10,
-          "delta": {"x": -7, "y": -16, "z": 53},
+          "delta": {"x": -7, "y": -28, "z": 53},
           "interpolationType": "smooth"
         },
         {
           "time": 20,
-          "delta": {"x": -77, "y": 35, "z": 75},
+          "delta": {"x": -77, "y": -6, "z": 75},
           "interpolationType": "smooth"
         },
         {
           "time": 30,
-          "delta": {"x": -102, "y": 62, "z": 75},
+          "delta": {"x": -77, "y": -6, "z": 75},
           "interpolationType": "smooth"
         }
       ],
