@@ -71,11 +71,11 @@
             "Interactions": [
               {
                 "Type": "Replace",
-                "Var": "Club_Flail_Spin_Swing_Left_Charged",
+                "Var": "Spin_Swing_Left_Charged",
                 "DefaultOk": true,
                 "DefaultValue": {
                   "Interactions": [
-                    "Club_Flail_Spin_Swing_Left_Charged"
+                    "Weapon_Club_Flail_Spin_Swing_Left_Charged"
                   ]
                 }
               }

@@ -59,10 +59,10 @@
             "Type": "Replace",
             "DefaultValue": {
               "Interactions": [
-                "Weapon_Club_Primary_Swing_Left_Effect"
+                "Weapon_Club_Flail_Swing_Down_Left_Effect"
               ]
             },
-            "Var": "Club_Flail_Swing_Up_Left_Effect"
+            "Var": "Swing_Down_Left_Effect"
           }
         ]
       }

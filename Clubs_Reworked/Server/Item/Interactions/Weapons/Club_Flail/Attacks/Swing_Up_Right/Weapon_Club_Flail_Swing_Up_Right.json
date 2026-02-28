@@ -39,7 +39,7 @@
                   "Var": "Swing_Up_Right_Damage",
                   "DefaultValue": {
                     "Interactions": [
-                      "Weapon_Club_Flail_Swing_Right_Damage"
+                      "Weapon_Club_Flail_Swing_Up_Right_Damage"
                     ]
                   }
                 }
@@ -59,10 +59,10 @@
             "Type": "Replace",
             "DefaultValue": {
               "Interactions": [
-                "Weapon_Club_Primary_Swing_Left_Effect"
+                "Weapon_Club_Flail_Swing_Up_Right_Effect"
               ]
             },
-            "Var": "Club_Flail_Swing_Up_Right_Effect"
+            "Var": "Up_Right_Effect"
           }
         ]
       }

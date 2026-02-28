@@ -46,6 +46,13 @@
       }
     ]
   },
+  "Swing_Left_Effect": {
+    "Interactions": [
+      {
+        "Parent": "Weapon_Club_Flail_Swing_Left_Effect"
+      }
+    ]
+  },
   "InteractionVars": {
     "Swing_Left_Damage": {
       "Interactions": [
@@ -53,7 +60,7 @@
           "Parent": "Weapon_Club_Flail_Swing_Left_Damage",
           "DamageCalculator": {
             "BaseDamage": {
-              "Physical": 7
+              "Physical": 3
             }
           },
           "DamageEffects": {
@@ -65,6 +72,13 @@
               "Amount": 1
             }
           ]
+        }
+      ]
+    },
+    "Swing_Right_Effect": {
+      "Interactions": [
+        {
+          "Parent": "Weapon_Club_Flail_Swing_Right_Effect"
         }
       ]
     },
@@ -74,7 +88,7 @@
           "Parent": "Weapon_Club_Flail_Swing_Right_Damage",
           "DamageCalculator": {
             "BaseDamage": {
-              "Physical": 7
+              "Physical": 4
             }
           },
           "DamageEffects": {
@@ -86,6 +100,13 @@
               "Amount": 1
             }
           ]
+        }
+      ]
+    },
+    "Swing_Up_Left_Effect": {
+      "Interactions": [
+        {
+          "Parent": "Weapon_Club_Flail_Swing_Up_Left_Effect"
         }
       ]
     },
@@ -95,7 +116,7 @@
           "Parent": "Weapon_Club_Flail_Swing_Up_Left_Damage",
           "DamageCalculator": {
             "BaseDamage": {
-              "Physical": 7
+              "Physical": 8
             }
           },
           "DamageEffects": {
@@ -110,24 +131,10 @@
         }
       ]
     },
-    "Swing_Up_Right_Damage": {
+    "Swing_Down_Left_Effect": {
       "Interactions": [
         {
-          "Parent": "Weapon_Club_Flail_Swing_Up_Right_Damage",
-          "DamageCalculator": {
-            "BaseDamage": {
-              "Physical": 7
-            }
-          },
-          "DamageEffects": {
-            "WorldSoundEventId": "SFX_Club_Steel_Impact"
-          },
-          "EntityStatsOnHit": [
-            {
-              "EntityStatId": "SignatureEnergy",
-              "Amount": 1
-            }
-          ]
+          "Parent": "Weapon_Club_Flail_Swing_Down_Left_Effect"
         }
       ]
     },
@@ -137,7 +144,7 @@
           "Parent": "Weapon_Club_Flail_Swing_Down_Left_Damage",
           "DamageCalculator": {
             "BaseDamage": {
-              "Physical": 7
+              "Physical": 9
             }
           },
           "DamageEffects": {
@@ -152,10 +159,38 @@
         }
       ]
     },
-    "Club_Flail_Spin_Swing_Left_Charged_Effect": {
+    "Swing_Up_Right_Effect": {
       "Interactions": [
         {
-          "Parent": "Club_Flail_Spin_Swing_Left_Charged_Effect",
+          "Parent": "Weapon_Club_Flail_Swing_Up_Right_Effect"
+        }
+      ]
+    },
+    "Swing_Up_Right_Damage": {
+      "Interactions": [
+        {
+          "Parent": "Weapon_Club_Flail_Swing_Up_Right_Damage",
+          "DamageCalculator": {
+            "BaseDamage": {
+              "Physical": 12
+            }
+          },
+          "DamageEffects": {
+            "WorldSoundEventId": "SFX_Club_Steel_Impact"
+          },
+          "EntityStatsOnHit": [
+            {
+              "EntityStatId": "SignatureEnergy",
+              "Amount": 1
+            }
+          ]
+        }
+      ]
+    },
+    "Spin_Swing_Left_Charged_Effect": {
+      "Interactions": [
+        {
+          "Parent": "Weapon_Club_Flail_Spin_Swing_Left_Charged_Effect",
           "Effects": {
             "Trails": [
               {
@@ -188,13 +223,13 @@
         }
       ]
     },
-    "Club_Flail_Spin_Swing_Left_Charged_Damage": {
+    "Spin_Swing_Left_Charged_Damage": {
       "Interactions": [
         {
-          "Parent": "Club_Flail_Spin_Swing_Left_Charged_Damage",
+          "Parent": "Weapon_Club_Flail_Spin_Swing_Left_Charged_Damage",
           "DamageCalculator": {
             "BaseDamage": {
-              "Physical": 7
+              "Physical": 12
             }
           },
           "DamageEffects": {
@@ -203,7 +238,7 @@
           "EntityStatsOnHit": [
             {
               "EntityStatId": "SignatureEnergy",
-              "Amount": 1
+              "Amount": 2
             }
           ]
         }
@@ -236,7 +271,19 @@
           }
         }
       ]
-    }
+    },
+    "Guard_Bash_Damage": {
+      "Interactions": [
+        {
+          "Parent": "Weapon_Club_Flail_Secondary_Guard_Bash_Damage",
+          "DamageCalculator": {
+            "BaseDamage": {
+              "Physical": 0
+            }
+          }
+        }
+      ]
+    }    
   },
   "MaxDurability": 150,
   "DurabilityLossOnHit": 0.25

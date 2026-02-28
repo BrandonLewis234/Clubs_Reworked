@@ -1,7 +1,7 @@
 {
   "Type": "Simple",
   "Effects": {
-    "ItemAnimationId": "SwingUpLeft"
+    "ItemAnimationId": "SwingRight"
   },
   "$Comment": "Prepare Delay",
   "RunTime": 0.289,
@@ -36,10 +36,10 @@
               "Interactions": [
                 {
                   "Type": "Replace",
-                  "Var": "Swing_Up_Left_Damage",
+                  "Var": "Swing_Right_Damage",
                   "DefaultValue": {
                     "Interactions": [
-                      "Weapon_Club_Flail_Swing_Up_Left_Damage"
+                      "Weapon_Club_Flail_Swing_Right_Damage"
                     ]
                   }
                 }
@@ -59,10 +59,10 @@
             "Type": "Replace",
             "DefaultValue": {
               "Interactions": [
-                "Weapon_Club_Flail_Swing_Up_Left_Effect"
+                "Weapon_Club_Flail_Swing_Right_Effect"
               ]
             },
-            "Var": "Swing_Up_Left_Effect"
+            "Var": "Swing_Right_Effect"
           }
         ]
       }

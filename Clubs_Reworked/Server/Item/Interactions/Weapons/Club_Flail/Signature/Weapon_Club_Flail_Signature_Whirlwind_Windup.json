@@ -3,6 +3,6 @@
   "Effects": {
     "ItemAnimationId": "SpinSwingRepeat"
   },
-  "RunTime": 0.167,
+  "RunTime": 0.25,
   "HorizontalSpeedMultiplier": 0.6
 }

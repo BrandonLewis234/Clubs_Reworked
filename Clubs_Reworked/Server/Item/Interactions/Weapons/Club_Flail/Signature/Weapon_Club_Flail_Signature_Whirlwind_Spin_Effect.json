@@ -1,6 +1,6 @@
 {
   "Type": "Simple",
-  "RunTime": 0.165,
+  "RunTime": 0.35,
   "Effects": {
     "Trails": [
       {
@@ -18,7 +18,7 @@
         "TrailId": "Medium_Signature"
       }
     ],
-    "WorldSoundEventId": "SFX_Battleaxe_T2_Signature_Swing",
+    "WorldSoundEventId": "SFX_Flail_Swing",
     "LocalSoundEventId": "SFX_Battleaxe_T2_Signature_Swing_Local",
     "ItemAnimationId": "WhirlwindChargedSpin",
     "WaitForAnimationToFinish": true,

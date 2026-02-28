@@ -83,7 +83,7 @@
       "ThirdPersonFace": "Characters/Animations/Expressions/Rage.blockyanim",
       "Looping": true,
       "KeepPreviousFirstPersonAnimation": true,
-      "Speed": 1
+      "Speed": 1.25
     },    
     "Guard": {
       "ThirdPerson": "Characters/Animations/Items/Main_Handed/Club_Flail/Attacks/Guard/Guard.blockyanim",
@@ -110,12 +110,17 @@
       },
       "TargetNodes": [
         "Head",
+        "LShoulder",
         "RShoulder"
       ]
     },
     "Yaw": {
+      "AngleRange": {
+        "Max": 45,
+        "Min": -45
+      },
       "TargetNodes": [
-        "Head"
+        "Belly"
       ]
     }
   },
