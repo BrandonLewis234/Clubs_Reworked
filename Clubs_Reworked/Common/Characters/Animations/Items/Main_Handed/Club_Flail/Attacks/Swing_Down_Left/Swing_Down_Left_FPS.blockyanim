@@ -7,17 +7,17 @@
       "position": [
         {
           "time": 0,
-          "delta": {"x": -40, "y": 0, "z": 49},
+          "delta": {"x": -50, "y": -19, "z": 49},
           "interpolationType": "smooth"
         },
         {
           "time": 15,
-          "delta": {"x": -20, "y": -13, "z": 49},
+          "delta": {"x": -26, "y": -22, "z": 49},
           "interpolationType": "smooth"
         },
         {
           "time": 30,
-          "delta": {"x": 56, "y": -18, "z": 36},
+          "delta": {"x": 56, "y": -28, "z": 36},
           "interpolationType": "smooth"
         }
       ],

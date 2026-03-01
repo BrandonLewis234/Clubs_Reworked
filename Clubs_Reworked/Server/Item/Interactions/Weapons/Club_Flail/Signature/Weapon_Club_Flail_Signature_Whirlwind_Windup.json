@@ -1,8 +1,8 @@
 {
   "Type": "Simple",
   "Effects": {
-    "ItemAnimationId": "SpinSwingRepeat"
+    "ItemAnimationId": "SpinSwingWindup"
   },
-  "RunTime": 0.25,
+  "RunTime": 0.05,
   "HorizontalSpeedMultiplier": 0.6
 }

@@ -18,10 +18,9 @@
         "TrailId": "Medium_Signature"
       }
     ],
+    "ItemAnimationId": "SpinSwingRepeat",
     "WorldSoundEventId": "SFX_Flail_Swing",
     "LocalSoundEventId": "SFX_Battleaxe_T2_Signature_Swing_Local",
-    "ItemAnimationId": "WhirlwindChargedSpin",
-    "WaitForAnimationToFinish": true,
     "Particles": [
       {
         "SystemId": "Battleaxe_Signature_Whirlwind",

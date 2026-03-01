@@ -271,19 +271,7 @@
           }
         }
       ]
-    },
-    "Guard_Bash_Damage": {
-      "Interactions": [
-        {
-          "Parent": "Weapon_Club_Flail_Secondary_Guard_Bash_Damage",
-          "DamageCalculator": {
-            "BaseDamage": {
-              "Physical": 0
-            }
-          }
-        }
-      ]
-    }    
+    }
   },
   "MaxDurability": 150,
   "DurabilityLossOnHit": 0.25
