@@ -1,0 +1,80 @@
+{
+  "Type": "Simple",
+  "Effects": {
+    "ItemAnimationId": "SwingDownCharged"
+  },
+  "RunTime": 0.083,
+  "Next": {
+    "Type": "Selector",
+    "RunTime": 0.5,
+    "Effects": {
+      "Trails": [
+        {
+          "PositionOffset": {
+            "X": 0.8,
+            "Y": 0,
+            "Z": 0
+          },
+          "RotationOffset": {
+            "Pitch": 0,
+            "Roll": 90,
+            "Yaw": 0
+          },
+          "TargetNodeName": "Handle",
+          "TrailId": "Medium_Charged"
+        },
+        {
+          "PositionOffset": {
+            "X": 0.8,
+            "Y": 0,
+            "Z": 0
+          },
+          "RotationOffset": {
+            "Pitch": 90,
+            "Roll": 0,
+            "Yaw": 0
+          },
+          "TargetNodeName": "Handle",
+          "TrailId": "Medium_Charged"
+        }
+      ],
+      "WorldSoundEventId": "SFX_Light_Melee_T2_Lunge"
+    },
+    "Selector": {
+      "Id": "Horizontal",
+      "Direction": "ToLeft",
+      "TestLineOfSight": true,
+      "ExtendTop": 0.5,
+      "ExtendBottom": 0.5,
+      "StartDistance": 0.5,
+      "EndDistance": 4,
+      "Length": 90,
+      "RollOffset": 80,
+      "YawStartOffset": -45
+    },
+    "HitBlock": {
+      "Interactions": [
+        "Block_Break_Adventure"
+      ]
+    },
+    "HitEntity": {
+      "Interactions": [
+        {
+          "Type": "Replace",
+          "Var": "Swing_Down_Charged_Damage",
+          "DefaultOk": true,
+          "DefaultValue": {
+            "Interactions": [
+              "Weapon_Club_Primary_Swing_Down_Charged_Damage"
+            ]
+          }
+        }
+      ]
+    },
+    "Next": {
+      "Type": "Simple",
+      "$Comment": "Pad the interaction length",
+      "RunTime": 0.25
+    }
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "Type": "Charging",
+  "DisplayProgress": false,
+  "HorizontalSpeedMultiplier": 0.8,
+  "Effects": {
+    "ItemAnimationId": "SpinSwingLeftCharging",
+    "LocalSoundEventId": "SFX_Flail_Charge_Local",
+    "WorldSoundEventId": "SFX_Flail_Charge",
+    "Particles": [
+      {
+        "PositionOffset": {
+          "X": 0.6,
+          "Y": 0,
+          "Z": 0
+        },
+        "RotationOffset": {
+          "Pitch": 0,
+          "Roll": 90,
+          "Yaw": 0
+        },
+        "TargetNodeName": "Handle",
+        "SystemId": "Mace_Charging"
+      }
+    ]
+  },
+  "Next": {
+    "0": "Weapon_Club_Flail_Primary_Chain",
+    "1.365": {
+      "Type": "Serial",
+      "Interactions": [
+        {
+          "Type": "Replace",
+          "Var": "Swing_StaminaCost",
+          "DefaultOk": true,
+          "DefaultValue": {
+            "Interactions": [
+              {
+                "Type": "ApplyEffect",
+                "EffectId": "Stamina_Broken_Immune"
+              },
+              {
+                "Type": "ChangeStat",
+                "StatModifiers": {
+                  "Stamina": -4
+                }
+              }
+            ]
+          }
+        },
+        {
+          "Type": "Replace",
+          "Var": "Club_StaminaRegenDelay",
+          "DefaultOk": true,
+          "DefaultValue": {
+            "Interactions": [
+              {
+                "Type": "ChangeStat",
+                "Behaviour": "Set",
+                "StatModifiers": {
+                  "StaminaRegenDelay": -2
+                }
+              }
+            ]
+          }
+        },
+        {
+          "Type": "Simple",
+          "RunTime": 0.05,
+          "Next": {
+            "Type": "Serial",
+            "Interactions": [
+              {
+                "Type": "Replace",
+                "Var": "Club_Flail_Spin_Swing_Left_Charged",
+                "DefaultOk": true,
+                "DefaultValue": {
+                  "Interactions": [
+                    "Club_Flail_Spin_Swing_Left_Charged"
+                  ]
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}
