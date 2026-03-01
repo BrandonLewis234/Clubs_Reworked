@@ -46,68 +46,74 @@
       }
     ]
   },
+  "Swing_Left_Effect": {
+    "Interactions": [
+      {
+        "Parent": "Weapon_Club_Flail_Swing_Left_Effect"
+      }
+    ]
+  },
   "InteractionVars": {
-    "Club_Flail_Swing_Left_Damage": {
+    "Swing_Left_Damage": {
       "Interactions": [
         {
-          "Parent": "Club_Flail_Swing_Left_Damage",
+          "Parent": "Weapon_Club_Flail_Swing_Left_Damage",
           "DamageCalculator": {
             "BaseDamage": {
-              "Physical": 7
+              "Physical": 3
             }
           },
           "DamageEffects": {
             "WorldSoundEventId": "SFX_Club_Steel_Impact"
           },
           "EntityStatsOnHit": [
-          {
-            "EntityStatId": "SignatureEnergy",
-            "Amount": 1
-          }
-        ]
+            {
+              "EntityStatId": "SignatureEnergy",
+              "Amount": 1
+            }
+          ]
         }
       ]
     },
-    "Club_Flail_Swing_Left_Effect": {
+    "Swing_Right_Effect": {
       "Interactions": [
         {
-          "Parent": "Club_Flail_Swing_Left_Effect",
-          "Effects": {
-            "Trails": [
-              {
-                "TrailId": "Small_Default",
-                "TargetNodeName": "Chain4",
-                "TargetEntityPart": "PrimaryItem"
-              },
-              {
-                "TrailId": "Small_Default",
-                "RotationOffset": {
-                  "Yaw": 0,
-                  "Pitch": 90,
-                  "Roll": 0
-                },
-                "TargetNodeName": "Chain4",
-                "TargetEntityPart": "PrimaryItem"
-              },
-              {
-                "TrailId": "Small_Default",
-                "RotationOffset": {
-                  "Yaw": 0,
-                  "Pitch": 0,
-                  "Roll": 90
-                },
-                "TargetNodeName": "Chain4",
-                "TargetEntityPart": "PrimaryItem"
-              }
-            ]
-          }
+          "Parent": "Weapon_Club_Flail_Swing_Right_Effect"
         }
       ]
     },
-    "Club_Flail_Swing_Right_Damage": {
+    "Swing_Right_Damage": {
       "Interactions": [
         {
-          "Parent": "Club_Flail_Swing_Right_Damage",
+          "Parent": "Weapon_Club_Flail_Swing_Right_Damage",
+          "DamageCalculator": {
+            "BaseDamage": {
+              "Physical": 4
+            }
+          },
+          "DamageEffects": {
+            "WorldSoundEventId": "SFX_Club_Steel_Impact"
+          },
+          "EntityStatsOnHit": [
+            {
+              "EntityStatId": "SignatureEnergy",
+              "Amount": 1
+            }
+          ]
+        }
+      ]
+    },
+    "Swing_Up_Left_Effect": {
+      "Interactions": [
+        {
+          "Parent": "Weapon_Club_Flail_Swing_Up_Left_Effect"
+        }
+      ]
+    },
+    "Swing_Up_Left_Damage": {
+      "Interactions": [
+        {
+          "Parent": "Weapon_Club_Flail_Swing_Up_Left_Damage",
           "DamageCalculator": {
             "BaseDamage": {
               "Physical": 8
@@ -117,75 +123,74 @@
             "WorldSoundEventId": "SFX_Club_Steel_Impact"
           },
           "EntityStatsOnHit": [
-          {
-            "EntityStatId": "SignatureEnergy",
-            "Amount": 1
-          }
-        ]
+            {
+              "EntityStatId": "SignatureEnergy",
+              "Amount": 1
+            }
+          ]
         }
       ]
     },
-    "Club_Flail_Swing_Right_Effect": {
+    "Swing_Down_Left_Effect": {
       "Interactions": [
         {
-          "Parent": "Club_Flail_Swing_Right_Effect",
-          "Effects": {
-            "Trails": [
-              {
-                "TrailId": "Small_Default",
-                "TargetNodeName": "Chain4",
-                "TargetEntityPart": "PrimaryItem"
-              },
-              {
-                "TrailId": "Small_Default",
-                "RotationOffset": {
-                  "Yaw": 0,
-                  "Pitch": 90,
-                  "Roll": 0
-                },
-                "TargetNodeName": "Chain4",
-                "TargetEntityPart": "PrimaryItem"
-              },
-              {
-                "TrailId": "Small_Default",
-                "RotationOffset": {
-                  "Yaw": 0,
-                  "Pitch": 0,
-                  "Roll": 90
-                },
-                "TargetNodeName": "Chain4",
-                "TargetEntityPart": "PrimaryItem"
-              }
-            ]
-          }
+          "Parent": "Weapon_Club_Flail_Swing_Down_Left_Effect"
         }
       ]
     },
-    "Club_Flail_Spin_Swing_Left_Charged_Damage": {
+    "Swing_Down_Left_Damage": {
       "Interactions": [
         {
-          "Parent": "Club_Flail_Spin_Swing_Left_Charged_Damage",
+          "Parent": "Weapon_Club_Flail_Swing_Down_Left_Damage",
           "DamageCalculator": {
             "BaseDamage": {
-              "Physical": 20
+              "Physical": 9
             }
           },
           "DamageEffects": {
             "WorldSoundEventId": "SFX_Club_Steel_Impact"
           },
           "EntityStatsOnHit": [
-          {
-            "EntityStatId": "SignatureEnergy",
-            "Amount": 2
-          }
-        ]
+            {
+              "EntityStatId": "SignatureEnergy",
+              "Amount": 1
+            }
+          ]
         }
       ]
     },
-    "Club_Flail_Spin_Swing_Left_Charged_Effect": {
+    "Swing_Up_Right_Effect": {
       "Interactions": [
         {
-          "Parent": "Club_Flail_Spin_Swing_Left_Charged_Effect",
+          "Parent": "Weapon_Club_Flail_Swing_Up_Right_Effect"
+        }
+      ]
+    },
+    "Swing_Up_Right_Damage": {
+      "Interactions": [
+        {
+          "Parent": "Weapon_Club_Flail_Swing_Up_Right_Damage",
+          "DamageCalculator": {
+            "BaseDamage": {
+              "Physical": 12
+            }
+          },
+          "DamageEffects": {
+            "WorldSoundEventId": "SFX_Club_Steel_Impact"
+          },
+          "EntityStatsOnHit": [
+            {
+              "EntityStatId": "SignatureEnergy",
+              "Amount": 1
+            }
+          ]
+        }
+      ]
+    },
+    "Spin_Swing_Left_Charged_Effect": {
+      "Interactions": [
+        {
+          "Parent": "Weapon_Club_Flail_Spin_Swing_Left_Charged_Effect",
           "Effects": {
             "Trails": [
               {
@@ -215,6 +220,27 @@
               }
             ]
           }
+        }
+      ]
+    },
+    "Spin_Swing_Left_Charged_Damage": {
+      "Interactions": [
+        {
+          "Parent": "Weapon_Club_Flail_Spin_Swing_Left_Charged_Damage",
+          "DamageCalculator": {
+            "BaseDamage": {
+              "Physical": 12
+            }
+          },
+          "DamageEffects": {
+            "WorldSoundEventId": "SFX_Club_Steel_Impact"
+          },
+          "EntityStatsOnHit": [
+            {
+              "EntityStatId": "SignatureEnergy",
+              "Amount": 2
+            }
+          ]
         }
       ]
     },
@@ -246,7 +272,7 @@
         }
       ]
     }
-  },   
+  },
   "MaxDurability": 150,
   "DurabilityLossOnHit": 0.25
 }

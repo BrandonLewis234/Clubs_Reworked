@@ -1,17 +1,10 @@
-#### v1.6.0
+#### v1.7.0
 
-* Updated server version to be compatible with Update 3
-* Fixed some damage values
+* Implemented a new attack pattern and custom animations for the Rusty Steel Flail
 
-#### v1.5.1
+  * Added a new unique signature attack and animation
 
-* Fixed crude club not appearning in pocket crafting
 
-#### v1.5.0
 
-* Added Rusty Steel Flail as a craftable weapon
+Working towards getting flails their own weapon tiers! Will have to create custom flails to accomplish this. For now, here's a sample of the flail's new attack pattern and signature!
 
-  * Unique special and attack pattern.
-  * **Note**: Animations for the flail are currently limited unless I were to make them myself
-
-* Adjusted sounds for various clubs

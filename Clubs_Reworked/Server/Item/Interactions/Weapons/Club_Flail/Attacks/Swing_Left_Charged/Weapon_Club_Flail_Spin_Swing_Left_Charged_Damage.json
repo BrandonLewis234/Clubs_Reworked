@@ -18,7 +18,7 @@
         "Style": "Linear"
       },
       "Direction": {
-        "X": -1,
+        "X": 0,
         "Y": 1,
         "Z": -1
       },
@@ -35,7 +35,7 @@
   "EntityStatsOnHit": [
     {
       "EntityStatId": "SignatureEnergy",
-      "Amount": 1
+      "Amount": 2
     }
   ]
 }
