@@ -1,2 +1,5 @@
 items.Template_Weapon_Club.name = Template Club
 items.Template_Weapon_Club_Flail.name = Template Flail
+
+items.Weapon_Club_Flail_Iron.name = Iron Flail
+benchCategories.flail = Flail

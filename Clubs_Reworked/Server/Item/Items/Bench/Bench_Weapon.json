@@ -82,6 +82,11 @@
           "Name": "server.benchCategories.mace"
         },
         {
+          "Id": "Weapon_Flail",
+          "Icon": "Icons/CraftingCategories/Armory/Flail.png",
+          "Name": "server.benchCategories.flail"
+        },
+        {
           "Id": "Weapon_Battleaxe",
           "Icon": "Icons/CraftingCategories/Armory/Battleaxe.png",
           "Name": "server.benchCategories.battleaxe"
