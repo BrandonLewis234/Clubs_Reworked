@@ -19,8 +19,6 @@
       }
     ],
     "ItemAnimationId": "SpinSwingRepeat",
-    "WorldSoundEventId": "SFX_Flail_Swing",
-    "LocalSoundEventId": "SFX_Battleaxe_T2_Signature_Swing_Local",
     "Particles": [
       {
         "SystemId": "Battleaxe_Signature_Whirlwind",

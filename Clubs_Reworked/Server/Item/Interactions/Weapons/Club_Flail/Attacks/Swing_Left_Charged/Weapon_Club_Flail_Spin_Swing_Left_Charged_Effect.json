@@ -32,8 +32,6 @@
         "TargetNodeName": "Handle",
         "TrailId": "Small_Charged"
       }
-    ],
-    "LocalSoundEventId": "SFX_Flail_Swing_Left_Local",
-    "WorldSoundEventId": "SFX_Flail_Swing"
+    ]
   }
 }
