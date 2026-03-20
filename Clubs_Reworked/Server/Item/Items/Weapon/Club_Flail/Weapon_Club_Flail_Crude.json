@@ -48,8 +48,8 @@
         {
           "Parent": "Weapon_Club_Flail_Swing_Left_Effect",
           "Effects": {
-            "LocalSoundEventId": "SFX_Crude_Flail_Swing_Left_Local",
-            "WorldSoundEventId": "SFX_Crude_Flail_Swing"
+            "LocalSoundEventId": "SFX_Flail_Crude_Swing_Left_Local",
+            "WorldSoundEventId": "SFX_Flail_Crude_Swing"
           }
         }
       ]
@@ -80,8 +80,8 @@
         {
           "Parent": "Weapon_Club_Flail_Swing_Right_Effect",
           "Effects": {
-            "LocalSoundEventId": "SFX_Crude_Flail_Swing_Right_Local",
-            "WorldSoundEventId": "SFX_Crude_Flail_Swing"
+            "LocalSoundEventId": "SFX_Flail_Crude_Swing_Left_Local",
+            "WorldSoundEventId": "SFX_Flail_Crude_Swing"
           }
         }
       ]
@@ -112,8 +112,8 @@
         {
           "Parent": "Weapon_Club_Flail_Swing_Up_Left_Effect",
           "Effects": {
-            "LocalSoundEventId": "SFX_Crude_Flail_Swing_Left_Local",
-            "WorldSoundEventId": "SFX_Crude_Flail_Swing"
+            "LocalSoundEventId": "SFX_Flail_Crude_Swing_Left_Local",
+            "WorldSoundEventId": "SFX_Flail_Crude_Swing"
           }
         }
       ]
@@ -144,8 +144,8 @@
         {
           "Parent": "Weapon_Club_Flail_Swing_Down_Left_Effect",
           "Effects": {
-            "LocalSoundEventId": "SFX_Crude_Flail_Swing_Left_Local",
-            "WorldSoundEventId": "SFX_Crude_Flail_Swing"
+            "LocalSoundEventId": "SFX_Flail_Crude_Swing_Left_Local",
+            "WorldSoundEventId": "SFX_Flail_Crude_Swing"
           }
         }
       ]
@@ -176,8 +176,8 @@
         {
           "Parent": "Weapon_Club_Flail_Swing_Up_Right_Effect",
           "Effects": {
-            "LocalSoundEventId": "SFX_Crude_Flail_Swing_Right_Local",
-            "WorldSoundEventId": "SFX_Crude_Flail_Swing"
+            "LocalSoundEventId": "SFX_Flail_Crude_Swing_Left_Local",
+            "WorldSoundEventId": "SFX_Flail_Crude_Swing"
           }
         }
       ]
@@ -208,8 +208,8 @@
         {
           "Parent": "Weapon_Club_Flail_Spin_Swing_Left_Charged_Effect",
           "Effects": {
-            "LocalSoundEventId": "SFX_Crude_Flail_Swing_Left_Local",
-            "WorldSoundEventId": "SFX_Crude_Flail_Swing",
+            "LocalSoundEventId": "SFX_Flail_Crude_Swing_Left_Local",
+            "WorldSoundEventId": "SFX_Flail_Crude_Swing",
             "Trails": [
               {
                 "TrailId": "Small_Default",
@@ -268,7 +268,7 @@
           "Parent": "Weapon_Club_Flail_Signature_Whirlwind_Spin_Effect",
           "Effects": {
             "LocalSoundEventId": "SFX_Battleaxe_T2_Signature_Swing_Local",
-            "WorldSoundEventId": "SFX_Crude_Flail_Swing"
+            "WorldSoundEventId": "SFX_Flail_Crude_Swing"
           }
         }
       ]
