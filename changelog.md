@@ -1,3 +1,9 @@
+#### v1.7.1.1
+
+* Fixed server version to be compatible with current version of Hytale.
+
+Exciting updates in the works, stay tuned!
+
 #### v1.7.1
 
 * Fixed incorrect animation for Swing\_Up\_Left attack for Rusty Steel Flail.
