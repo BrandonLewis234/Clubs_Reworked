@@ -17,32 +17,28 @@
     "KnowledgeRequired": false,
     "Input": [
       {
-        "ItemId": "Ingredient_Bar_Iron",
-        "Quantity": 2
+        "ItemId": "Ingredient_Fibre",
+        "Quantity": 4
       },
       {
-        "ItemId": "Ingredient_Fabric_Scrap_Linen",
-        "Quantity": 3
-      },
-      {
-        "ItemId": "Ingredient_Leather_Light",
+        "ItemId": "Ingredient_Stick",
         "Quantity": 2
       }
     ],
     "BenchRequirement": [
       {
-        "Type": "DiagramCrafting",
-        "Categories": [
-          "Weapons.Mace"
-        ],
-        "Id": "Armory"
-      },
-      {
+        "Id": "Fieldcraft",
         "Type": "Crafting",
         "Categories": [
-          "Weapon_Flail"
-        ],
-        "Id": "Weapon_Bench"
+          "Tools"
+        ]
+      },
+      {
+        "Id": "Workbench",
+        "Type": "Crafting",
+        "Categories": [
+          "Workbench_Survival"
+        ]
       }
     ]
   },

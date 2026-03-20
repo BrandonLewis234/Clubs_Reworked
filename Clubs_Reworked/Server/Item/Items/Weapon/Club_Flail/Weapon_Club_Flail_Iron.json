@@ -31,13 +31,6 @@
     ],
     "BenchRequirement": [
       {
-        "Type": "DiagramCrafting",
-        "Categories": [
-          "Weapons.Mace"
-        ],
-        "Id": "Armory"
-      },
-      {
         "Type": "Crafting",
         "Categories": [
           "Weapon_Flail"

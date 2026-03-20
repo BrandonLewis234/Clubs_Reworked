@@ -57,12 +57,12 @@
         "Interactions": [
           {
             "Type": "Replace",
+            "Var": "Swing_Up_Right_Effect",
             "DefaultValue": {
               "Interactions": [
                 "Weapon_Club_Flail_Swing_Up_Right_Effect"
               ]
-            },
-            "Var": "Up_Right_Effect"
+            }
           }
         ]
       }
