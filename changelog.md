@@ -1,4 +1,4 @@
-#### v1.7.1.1
+#### v1.7.2
 
 * Fixed server version to be compatible with current version of Hytale.
 

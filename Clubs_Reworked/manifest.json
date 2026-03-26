@@ -1,13 +1,13 @@
 {
   "Group": "TangoMango",
   "Name": "Clubs Reworked",
-  "Version": "1.7.1.2",
+  "Version": "1.7.2",
   "Description": "A mod that introduces clubs to be usable by players. Previously only usable by mobs, players can now craft and use clubs! Complete with a unique combo, blocking, and a signature attack. Each club has its own crafting recipe.",
   "Authors": [
     {
       "Name": "TangoMango",
       "Email": "",
-      "Url": "https://github.com/BrandonLewis234/Clubs_Reworked"
+      "Url": ""
     }
   ],
   "Website": "",
