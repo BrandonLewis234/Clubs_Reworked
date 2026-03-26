@@ -4,8 +4,6 @@
   "HorizontalSpeedMultiplier": 0.8,
   "Effects": {
     "ItemAnimationId": "SpinSwingLeftCharging",
-    "LocalSoundEventId": "SFX_Flail_Charge_Local",
-    "WorldSoundEventId": "SFX_Flail_Charge",
     "Particles": [
       {
         "PositionOffset": {

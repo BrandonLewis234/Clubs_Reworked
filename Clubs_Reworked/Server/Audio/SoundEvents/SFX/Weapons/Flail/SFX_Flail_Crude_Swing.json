@@ -2,10 +2,10 @@
   "Layers": [
     {
       "Files": [
-        "Sounds/Weapons/Club/Flail/Flail_Crude_Swing_Left.ogg",
-        "Sounds/Weapons/Club/Flail/Flail_Crude_Swing_Left_Variation1.ogg",
-        "Sounds/Weapons/Club/Flail/Flail_Crude_Swing_Left_Variation2.ogg",
-        "Sounds/Weapons/Club/Flail/Flail_Crude_Swing_Left_Variation3.ogg"
+        "Sounds/Weapons/Club/Flail/Flail_Crude_Swing_NPC_01.ogg",
+        "Sounds/Weapons/Club/Flail/Flail_Crude_Swing_NPC_02.ogg",
+        "Sounds/Weapons/Club/Flail/Flail_Crude_Swing_NPC_03.ogg",
+        "Sounds/Weapons/Club/Flail/Flail_Crude_Swing_NPC_04.ogg"
       ],
       "RandomSettings": {
         "MinPitch": -2,

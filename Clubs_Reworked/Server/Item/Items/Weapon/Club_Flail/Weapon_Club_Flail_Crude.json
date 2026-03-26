@@ -42,7 +42,18 @@
       }
     ]
   },
-  "InteractionVars": {
+  "InteractionVars": {    
+    "Spin_Swing_Left_Charging": {
+      "Interactions": [
+        {
+          "Parent": "Weapon_Club_Flail_Spin_Swing_Left_Charging",
+          "Effects": {
+            "LocalSoundEventId": "SFX_Flail_Charge_Local",
+            "WorldSoundEventId": "SFX_Flail_Crude_Charge"
+          }
+        }
+      ]
+    },
     "Swing_Left_Effect": {
       "Interactions": [
         {

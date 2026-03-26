@@ -2,7 +2,7 @@
   "Layers": [
     {
       "Files": [
-        "Sounds/Weapons/Club/Flail/Flail_Crude_Charge.ogg"
+        "Sounds/Weapons/Club/Flail/Flail_Crude_Charge_NPC.ogg"
       ],
       "RandomSettings": {
         "MinPitch": -2,

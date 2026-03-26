@@ -3,9 +3,9 @@
     {
       "Files": [
         "Sounds/Weapons/Club/Flail/Flail_Crude_Swing_Left.ogg",
-        "Sounds/Weapons/Club/Flail/Flail_Crude_Swing_Left_Variation1.ogg",
-        "Sounds/Weapons/Club/Flail/Flail_Crude_Swing_Left_Variation2.ogg",
-        "Sounds/Weapons/Club/Flail/Flail_Crude_Swing_Left_Variation3.ogg"
+        "Sounds/Weapons/Club/Flail/Flail_Crude_Swing_Left_Variation_01.ogg",
+        "Sounds/Weapons/Club/Flail/Flail_Crude_Swing_Left_Variation_02.ogg",
+        "Sounds/Weapons/Club/Flail/Flail_Crude_Swing_Left_Variation_03.ogg"
       ],
       "RandomSettings": {
         "MinPitch": -2,

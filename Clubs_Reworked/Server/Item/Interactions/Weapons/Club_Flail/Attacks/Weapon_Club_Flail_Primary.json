@@ -4,7 +4,7 @@
     "0": "Weapon_Club_Flail_Primary_Chain",
     "0.2": {
       "Type": "Replace",
-      "Var": "Spin_Attack",
+      "Var": "Spin_Swing_Left_Charging",
       "DefaultOk": true,
       "DefaultValue": {
         "Interactions": [
