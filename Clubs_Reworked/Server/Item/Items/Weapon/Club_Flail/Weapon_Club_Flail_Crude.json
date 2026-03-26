@@ -48,7 +48,7 @@
         {
           "Parent": "Weapon_Club_Flail_Spin_Swing_Left_Charging",
           "Effects": {
-            "LocalSoundEventId": "SFX_Flail_Charge_Local",
+            "LocalSoundEventId": "SFX_Flail_Crude_Charge_Local",
             "WorldSoundEventId": "SFX_Flail_Crude_Charge"
           }
         }
@@ -75,7 +75,7 @@
             }
           },
           "DamageEffects": {
-            "WorldSoundEventId": "SFX_Club_Steel_Impact"
+            "WorldSoundEventId": "SFX_Flail_Crude_Impact"
           },
           "EntityStatsOnHit": [
             {
@@ -107,7 +107,7 @@
             }
           },
           "DamageEffects": {
-            "WorldSoundEventId": "SFX_Club_Steel_Impact"
+            "WorldSoundEventId": "SFX_Flail_Crude_Impact"
           },
           "EntityStatsOnHit": [
             {
@@ -139,7 +139,7 @@
             }
           },
           "DamageEffects": {
-            "WorldSoundEventId": "SFX_Club_Steel_Impact"
+            "WorldSoundEventId": "SFX_Flail_Crude_Impact"
           },
           "EntityStatsOnHit": [
             {
@@ -171,7 +171,7 @@
             }
           },
           "DamageEffects": {
-            "WorldSoundEventId": "SFX_Club_Steel_Impact"
+            "WorldSoundEventId": "SFX_Flail_Crude_Impact"
           },
           "EntityStatsOnHit": [
             {
@@ -203,7 +203,7 @@
             }
           },
           "DamageEffects": {
-            "WorldSoundEventId": "SFX_Club_Steel_Impact"
+            "WorldSoundEventId": "SFX_Flail_Crude_Impact"
           },
           "EntityStatsOnHit": [
             {
@@ -262,7 +262,7 @@
             }
           },
           "DamageEffects": {
-            "WorldSoundEventId": "SFX_Club_Steel_Impact"
+            "WorldSoundEventId": "SFX_Flail_Crude_Impact"
           },
           "EntityStatsOnHit": [
             {
