@@ -1,3 +1,7 @@
+#### v1.7.3
+
+* Fixed an issue where new Blacksmith Anvil's would no longer be interactable. 
+
 #### v1.7.2
 
 * Fixed server version to be compatible with current version of Hytale.
