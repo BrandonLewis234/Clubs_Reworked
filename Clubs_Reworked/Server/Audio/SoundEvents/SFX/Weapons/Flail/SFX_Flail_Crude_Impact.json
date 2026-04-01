@@ -8,8 +8,8 @@
         "Sounds/Weapons/Club/Flail/Flail_Crude_Impact_Layer_04.ogg"
       ],
       "RandomSettings": {
-        "MinPitch": -2,
-        "MaxPitch": 2,
+        "MinPitch": 0,
+        "MaxPitch": 0,
         "MinVolume": -3,
         "MaxVolume": 0
       },

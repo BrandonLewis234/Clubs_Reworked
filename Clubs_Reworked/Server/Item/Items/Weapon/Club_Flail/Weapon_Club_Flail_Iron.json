@@ -68,7 +68,7 @@
           "Parent": "Weapon_Club_Flail_Swing_Left_Damage",
           "DamageCalculator": {
             "BaseDamage": {
-              "Physical": 3
+              "Physical": 7
             }
           },
           "DamageEffects": {
@@ -100,7 +100,7 @@
           "Parent": "Weapon_Club_Flail_Swing_Right_Damage",
           "DamageCalculator": {
             "BaseDamage": {
-              "Physical": 4
+              "Physical": 9
             }
           },
           "DamageEffects": {
@@ -132,7 +132,7 @@
           "Parent": "Weapon_Club_Flail_Swing_Up_Left_Damage",
           "DamageCalculator": {
             "BaseDamage": {
-              "Physical": 8
+              "Physical": 10
             }
           },
           "DamageEffects": {
@@ -164,7 +164,7 @@
           "Parent": "Weapon_Club_Flail_Swing_Down_Left_Damage",
           "DamageCalculator": {
             "BaseDamage": {
-              "Physical": 9
+              "Physical": 12
             }
           },
           "DamageEffects": {
@@ -196,7 +196,7 @@
           "Parent": "Weapon_Club_Flail_Swing_Up_Right_Damage",
           "DamageCalculator": {
             "BaseDamage": {
-              "Physical": 12
+              "Physical": 17
             }
           },
           "DamageEffects": {
@@ -255,7 +255,7 @@
           "Parent": "Weapon_Club_Flail_Spin_Swing_Left_Charged_Damage",
           "DamageCalculator": {
             "BaseDamage": {
-              "Physical": 12
+              "Physical": 17
             }
           },
           "DamageEffects": {
@@ -276,7 +276,7 @@
           "Parent": "Weapon_Club_Flail_Signature_Whirlwind_Spin_Effect",
           "Effects": {
             "LocalSoundEventId": "SFX_Battleaxe_T2_Signature_Swing_Local",
-            "WorldSoundEventId": "SFX_Flail_Swing"
+            "WorldSoundEventId": "SFX_Battleaxe_T2_Signature_Swing"
           }
         }
       ]
@@ -287,7 +287,7 @@
           "Parent": "Weapon_Club_Flail_Signature_Whirlwind_Damage",
           "DamageCalculator": {
             "BaseDamage": {
-              "Physical": 12
+              "Physical": 17
             }
           },
           "EntityStatsOnHit": [],

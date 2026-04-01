@@ -6,7 +6,7 @@
   "Model": "Items/Weapons/Club_Flail/Crude.blockymodel",
   "Texture": "Items/Weapons/Club_Flail/Crude_Texture.png",
   "Icon": "Icons/ItemsGenerated/Weapon_Club_Flail_Crude.png",
-  "Quality": "Uncommon",
+  "Quality": "Common",
   "PlayerAnimationsId": "Club_Flail",
   "Utility": {
     "Compatible": true
@@ -279,7 +279,7 @@
           "Parent": "Weapon_Club_Flail_Signature_Whirlwind_Spin_Effect",
           "Effects": {
             "LocalSoundEventId": "SFX_Battleaxe_T2_Signature_Swing_Local",
-            "WorldSoundEventId": "SFX_Flail_Crude_Swing"
+            "WorldSoundEventId": "SFX_Battleaxe_T2_Signature_Swing"
           }
         }
       ]
@@ -313,18 +313,6 @@
       ]
     }
   },
-  "MaxDurability": 150,
-  "DurabilityLossOnHit": 0.25,
-  "IconProperties": {
-    "Scale": 0.43,
-    "Rotation": [
-      45,
-      90,
-      0
-    ],
-    "Translation": [
-      -24,
-      -28
-    ]
-  }
+  "MaxDurability": 80,
+  "DurabilityLossOnHit": 0.35
 }
