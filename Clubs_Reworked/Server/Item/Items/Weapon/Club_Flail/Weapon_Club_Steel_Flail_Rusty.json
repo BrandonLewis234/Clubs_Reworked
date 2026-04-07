@@ -3,8 +3,8 @@
   "TranslationProperties": {
     "Name": "server.items.Weapon_Club_Steel_Flail_Rusty.name"
   },
-  "Model": "Items/Weapons/Club/Steel_Flail.blockymodel",
-  "Texture": "Items/Weapons/Club/Steel_Flail_Rusty_Texture.png",
+  "Model": "Items/Weapons/Club_Flail/Steel_Flail.blockymodel",
+  "Texture": "Items/Weapons/Club_Flail/Steel_Flail_Rusty_Texture.png",
   "Icon": "Icons/ItemsGenerated/Weapon_Club_Steel_Flail_Rusty.png",
   "Quality": "Uncommon",
   "PlayerAnimationsId": "Club_Flail",
@@ -38,38 +38,32 @@
     ]
   },
   "InteractionVars": {
+    "Spin_Swing_Left_Charging": {
+      "Interactions": [
+        {
+          "Parent": "Weapon_Club_Flail_Spin_Swing_Left_Charging",
+          "Effects": {
+            "LocalSoundEventId": "SFX_Flail_Charge_Local",
+            "WorldSoundEventId": "SFX_Flail_Charge"
+          }
+        }
+      ]
+    },
+    "Swing_Left_Effect": {
+      "Interactions": [
+        {
+          "Parent": "Weapon_Club_Flail_Swing_Left_Effect",
+          "Effects": {
+            "LocalSoundEventId": "SFX_Flail_Swing_Left_Local",
+            "WorldSoundEventId": "SFX_Flail_Swing"
+          }
+        }
+      ]
+    },
     "Swing_Left_Damage": {
       "Interactions": [
         {
           "Parent": "Weapon_Club_Flail_Swing_Left_Damage",
-          "DamageCalculator": {
-            "BaseDamage": {
-              "Physical": 3
-            }
-          },
-          "DamageEffects": {
-            "WorldSoundEventId": "SFX_Club_Steel_Impact"
-          },
-          "EntityStatsOnHit": [
-            {
-              "EntityStatId": "SignatureEnergy",
-              "Amount": 1
-            }
-          ]
-        }
-      ]
-    },
-    "Swing_Right_Effect": {
-      "Interactions": [
-        {
-          "Parent": "Weapon_Club_Flail_Swing_Right_Effect"
-        }
-      ]
-    },
-    "Swing_Right_Damage": {
-      "Interactions": [
-        {
-          "Parent": "Weapon_Club_Flail_Swing_Right_Damage",
           "DamageCalculator": {
             "BaseDamage": {
               "Physical": 4
@@ -87,10 +81,46 @@
         }
       ]
     },
+    "Swing_Right_Effect": {
+      "Interactions": [
+        {
+          "Parent": "Weapon_Club_Flail_Swing_Right_Effect",
+          "Effects": {
+            "LocalSoundEventId": "SFX_Flail_Swing_Right_Local",
+            "WorldSoundEventId": "SFX_Flail_Swing"
+          }
+        }
+      ]
+    },
+    "Swing_Right_Damage": {
+      "Interactions": [
+        {
+          "Parent": "Weapon_Club_Flail_Swing_Right_Damage",
+          "DamageCalculator": {
+            "BaseDamage": {
+              "Physical": 6
+            }
+          },
+          "DamageEffects": {
+            "WorldSoundEventId": "SFX_Club_Steel_Impact"
+          },
+          "EntityStatsOnHit": [
+            {
+              "EntityStatId": "SignatureEnergy",
+              "Amount": 1
+            }
+          ]
+        }
+      ]
+    },
     "Swing_Up_Left_Effect": {
       "Interactions": [
         {
-          "Parent": "Weapon_Club_Flail_Swing_Up_Left_Effect"
+          "Parent": "Weapon_Club_Flail_Swing_Up_Left_Effect",
+          "Effects": {
+            "LocalSoundEventId": "SFX_Flail_Swing_Left_Local",
+            "WorldSoundEventId": "SFX_Flail_Swing"
+          }
         }
       ]
     },
@@ -100,7 +130,7 @@
           "Parent": "Weapon_Club_Flail_Swing_Up_Left_Damage",
           "DamageCalculator": {
             "BaseDamage": {
-              "Physical": 8
+              "Physical": 7
             }
           },
           "DamageEffects": {
@@ -118,7 +148,11 @@
     "Swing_Down_Left_Effect": {
       "Interactions": [
         {
-          "Parent": "Weapon_Club_Flail_Swing_Down_Left_Effect"
+          "Parent": "Weapon_Club_Flail_Swing_Down_Left_Effect",
+          "Effects": {
+            "LocalSoundEventId": "SFX_Flail_Swing_Left_Local",
+            "WorldSoundEventId": "SFX_Flail_Swing"
+          }
         }
       ]
     },
@@ -146,7 +180,11 @@
     "Swing_Up_Right_Effect": {
       "Interactions": [
         {
-          "Parent": "Weapon_Club_Flail_Swing_Up_Right_Effect"
+          "Parent": "Weapon_Club_Flail_Swing_Up_Right_Effect",
+          "Effects": {
+            "LocalSoundEventId": "SFX_Flail_Swing_Right_Local",
+            "WorldSoundEventId": "SFX_Flail_Swing"
+          }
         }
       ]
     },
@@ -156,7 +194,7 @@
           "Parent": "Weapon_Club_Flail_Swing_Up_Right_Damage",
           "DamageCalculator": {
             "BaseDamage": {
-              "Physical": 12
+              "Physical": 14
             }
           },
           "DamageEffects": {
@@ -176,6 +214,8 @@
         {
           "Parent": "Weapon_Club_Flail_Spin_Swing_Left_Charged_Effect",
           "Effects": {
+            "LocalSoundEventId": "SFX_Flail_Swing_Left_Local",
+            "WorldSoundEventId": "SFX_Flail_Swing",
             "Trails": [
               {
                 "TrailId": "Small_Default",
@@ -213,7 +253,7 @@
           "Parent": "Weapon_Club_Flail_Spin_Swing_Left_Charged_Damage",
           "DamageCalculator": {
             "BaseDamage": {
-              "Physical": 12
+              "Physical": 17
             }
           },
           "DamageEffects": {
@@ -228,13 +268,35 @@
         }
       ]
     },
+    "Signature_Whirlwind_Effect": {
+      "Interactions": [
+        {
+          "Parent": "Weapon_Club_Flail_Signature_Whirlwind_Spin_Effect",
+          "Effects": {
+            "LocalSoundEventId": "SFX_Battleaxe_T2_Signature_Swing_Local",
+            "WorldSoundEventId": "SFX_Battleaxe_T2_Signature_Swing"
+          }
+        }
+      ]
+    },
+    "Signature_Whirlwind_End_Effect": {
+      "Interactions": [
+        {
+          "Parent": "Weapon_Club_Flail_Signature_Whirlwind_End_Effect",
+          "Effects": {
+            "LocalSoundEventId": "SFX_Battleaxe_T2_Signature_End_Local",
+            "WorldSoundEventId": "SFX_Battleaxe_T2_Signature_End"
+          }
+        }
+      ]
+    },
     "Signature_Whirlwind_Damage": {
       "Interactions": [
         {
           "Parent": "Weapon_Club_Flail_Signature_Whirlwind_Damage",
           "DamageCalculator": {
             "BaseDamage": {
-              "Physical": 12
+              "Physical": 17
             }
           },
           "EntityStatsOnHit": [],

@@ -42,7 +42,7 @@
       }
     ]
   },
-  "InteractionVars": {    
+  "InteractionVars": {
     "Spin_Swing_Left_Charging": {
       "Interactions": [
         {
@@ -284,6 +284,17 @@
         }
       ]
     },
+    "Signature_Whirlwind_End_Effect": {
+      "Interactions": [
+        {
+          "Parent": "Weapon_Club_Flail_Signature_Whirlwind_End_Effect",
+          "Effects": {
+            "LocalSoundEventId": "SFX_Battleaxe_T2_Signature_End_Local",
+            "WorldSoundEventId": "SFX_Battleaxe_T2_Signature_End"
+          }
+        }
+      ]
+    },
     "Signature_Whirlwind_Damage": {
       "Interactions": [
         {
@@ -295,8 +306,7 @@
           },
           "EntityStatsOnHit": [],
           "DamageEffects": {
-            "WorldSoundEventId": "SFX_Battleaxe_T2_Impact",
-            "LocalSoundEventId": "SFX_Battleaxe_T2_Impact"
+            "WorldSoundEventId": "SFX_Flail_Crude_Impact"
           }
         }
       ]

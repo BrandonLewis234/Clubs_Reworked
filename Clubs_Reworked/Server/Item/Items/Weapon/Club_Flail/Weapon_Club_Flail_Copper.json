@@ -1,11 +1,11 @@
 {
   "Parent": "Tango_Template_Weapon_Club_Flail",
   "TranslationProperties": {
-    "Name": "server.items.Weapon_Club_Flail_Iron.name"
+    "Name": "server.items.Weapon_Club_Flail_Copper.name"
   },
-  "Model": "Items/Weapons/Club_Flail/Iron.blockymodel",
-  "Texture": "Items/Weapons/Club_Flail/Iron_Texture.png",
-  "Icon": "Icons/ItemsGenerated/Weapon_Club_Flail_Iron.png",
+  "Model": "Items/Weapons/Club_Flail/Copper.blockymodel",
+  "Texture": "Items/Weapons/Club_Flail/Copper_Texture.png",
+  "Icon": "Icons/ItemsGenerated/Weapon_Club_Flail_Copper.png",
   "Quality": "Uncommon",
   "PlayerAnimationsId": "Club_Flail",
   "Utility": {
@@ -17,16 +17,16 @@
     "KnowledgeRequired": false,
     "Input": [
       {
-        "ItemId": "Ingredient_Bar_Iron",
+        "ItemId": "Ingredient_Bar_Copper",
         "Quantity": 2
       },
       {
-        "ItemId": "Ingredient_Fabric_Scrap_Linen",
-        "Quantity": 3
+        "ResourceTypeId": "Wood_Trunk",
+        "Quantity": 4
       },
       {
-        "ItemId": "Ingredient_Leather_Light",
-        "Quantity": 2
+        "ItemId": "Ingredient_Fibre",
+        "Quantity": 4
       }
     ],
     "BenchRequirement": [
@@ -72,7 +72,7 @@
             }
           },
           "DamageEffects": {
-            "WorldSoundEventId": "SFX_Club_Steel_Impact"
+            "WorldSoundEventId": "SFX_Mace_T2_Impact"
           },
           "EntityStatsOnHit": [
             {
@@ -104,7 +104,7 @@
             }
           },
           "DamageEffects": {
-            "WorldSoundEventId": "SFX_Club_Steel_Impact"
+            "WorldSoundEventId": "SFX_Mace_T2_Impact"
           },
           "EntityStatsOnHit": [
             {
@@ -136,7 +136,7 @@
             }
           },
           "DamageEffects": {
-            "WorldSoundEventId": "SFX_Club_Steel_Impact"
+            "WorldSoundEventId": "SFX_Mace_T2_Impact"
           },
           "EntityStatsOnHit": [
             {
@@ -168,7 +168,7 @@
             }
           },
           "DamageEffects": {
-            "WorldSoundEventId": "SFX_Club_Steel_Impact"
+            "WorldSoundEventId": "SFX_Mace_T2_Impact"
           },
           "EntityStatsOnHit": [
             {
@@ -200,7 +200,7 @@
             }
           },
           "DamageEffects": {
-            "WorldSoundEventId": "SFX_Club_Steel_Impact"
+            "WorldSoundEventId": "SFX_Mace_T2_Impact"
           },
           "EntityStatsOnHit": [
             {
@@ -259,7 +259,7 @@
             }
           },
           "DamageEffects": {
-            "WorldSoundEventId": "SFX_Club_Steel_Impact"
+            "WorldSoundEventId": "SFX_Mace_T2_Impact"
           },
           "EntityStatsOnHit": [
             {
@@ -286,8 +286,8 @@
         {
           "Parent": "Weapon_Club_Flail_Signature_Whirlwind_End_Effect",
           "Effects": {
-            "LocalSoundEventId": "SFX_Battleaxe_T2_Signature_End_Local",
-            "WorldSoundEventId": "SFX_Battleaxe_T2_Signature_End"
+            "LocalSoundEventId": "SFX_Mace_T2_Signature_Impact_Local",
+            "WorldSoundEventId": "SFX_Mace_T2_Signature_Impact"
           }
         }
       ]
@@ -303,8 +303,8 @@
           },
           "EntityStatsOnHit": [],
           "DamageEffects": {
-            "WorldSoundEventId": "SFX_Battleaxe_T2_Impact",
-            "LocalSoundEventId": "SFX_Battleaxe_T2_Impact"
+            "LocalSoundEventId": "SFX_Mace_T2_Impact",
+            "WorldSoundEventId": "SFX_Mace_T2_Impact"
           }
         }
       ]
