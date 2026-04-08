@@ -4,5 +4,6 @@ items.Template_Weapon_Club_Flail.name = Template Flail
 items.Weapon_Club_Flail_Crude.name = Crude Flail
 items.Weapon_Club_Flail_Iron.name = Iron Flail
 items.Weapon_Club_Flail_Copper.name = Copper Flail
+items.Weapon_Club_Flail_Thorium.name = Thorium Flail
 
 benchCategories.flail = Flail

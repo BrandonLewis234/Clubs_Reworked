@@ -1,32 +1,32 @@
 {
   "Parent": "Tango_Template_Weapon_Club_Flail",
   "TranslationProperties": {
-    "Name": "server.items.Weapon_Club_Flail_Iron.name"
+    "Name": "server.items.Weapon_Club_Flail_Thorium.name"
   },
-  "Model": "Items/Weapons/Club_Flail/Iron.blockymodel",
-  "Texture": "Items/Weapons/Club_Flail/Iron_Texture.png",
-  "Icon": "Icons/ItemsGenerated/Weapon_Club_Flail_Iron.png",
+  "Model": "Items/Weapons/Club_Flail/Thorium.blockymodel",
+  "Texture": "Items/Weapons/Club_Flail/Thorium_Texture.png",
+  "Icon": "Icons/ItemsGenerated/Weapon_Club_Flail_Thorium.png",
   "Quality": "Uncommon",
   "PlayerAnimationsId": "Club_Flail",
   "Utility": {
     "Compatible": true
   },
-  "ItemLevel": 20,
+  "ItemLevel": 30,
   "Recipe": {
-    "TimeSeconds": 3.5,
+    "TimeSeconds": 4,
     "KnowledgeRequired": false,
     "Input": [
       {
-        "ItemId": "Ingredient_Bar_Iron",
-        "Quantity": 2
+        "ItemId": "Ingredient_Bar_Thorium",
+        "Quantity": 4
       },
       {
         "ItemId": "Ingredient_Fabric_Scrap_Linen",
         "Quantity": 3
       },
       {
-        "ItemId": "Ingredient_Leather_Light",
-        "Quantity": 2
+        "ItemId": "Ingredient_Leather_Medium",
+        "Quantity": 4
       }
     ],
     "BenchRequirement": [
@@ -35,7 +35,8 @@
         "Categories": [
           "Weapon_Mace"
         ],
-        "Id": "Weapon_Bench"
+        "Id": "Weapon_Bench",
+        "RequiredTierLevel": 2
       }
     ]
   },
@@ -321,6 +322,6 @@
       ]
     }
   },
-  "MaxDurability": 120,
+  "MaxDurability": 150,
   "DurabilityLossOnHit": 0.45
 }

@@ -13,7 +13,7 @@
   },
   "ItemLevel": 5,
   "Recipe": {
-    "TimeSeconds": 3.5,
+    "TimeSeconds": 1.5,
     "KnowledgeRequired": false,
     "Input": [
       {

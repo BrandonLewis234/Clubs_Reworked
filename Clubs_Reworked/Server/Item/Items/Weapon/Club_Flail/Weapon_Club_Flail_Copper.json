@@ -11,9 +11,9 @@
   "Utility": {
     "Compatible": true
   },
-  "ItemLevel": 18,
+  "ItemLevel": 10,
   "Recipe": {
-    "TimeSeconds": 3.5,
+    "TimeSeconds": 3,
     "KnowledgeRequired": false,
     "Input": [
       {
@@ -33,7 +33,7 @@
       {
         "Type": "Crafting",
         "Categories": [
-          "Weapon_Flail"
+          "Weapon_Mace"
         ],
         "Id": "Weapon_Bench"
       }
@@ -321,18 +321,6 @@
       ]
     }
   },
-  "MaxDurability": 150,
-  "DurabilityLossOnHit": 0.25,
-  "IconProperties": {
-    "Scale": 0.43,
-    "Rotation": [
-      45,
-      90,
-      0
-    ],
-    "Translation": [
-      -24,
-      -28
-    ]
-  }
+  "MaxDurability": 100,
+  "DurabilityLossOnHit": 0.45
 }
