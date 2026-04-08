@@ -324,5 +324,17 @@
     }
   },
   "MaxDurability": 80,
-  "DurabilityLossOnHit": 0.35
+  "DurabilityLossOnHit": 0.35,
+  "IconProperties": {
+    "Scale": 0.43,
+    "Rotation": [
+      45,
+      90,
+      0
+    ],
+    "Translation": [
+      -24,
+      -28
+    ]
+  }
 }
