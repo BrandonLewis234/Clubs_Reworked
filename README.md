@@ -20,7 +20,7 @@
 
 ***
 
-## **<span style="color: #fff;">Current Status (Version 1.7.1)</span>**
+## **<span style="color: #fff;">Current Status (Version 1.7.3)</span>**
 
 <span style="color: #fff;">The following clubs are implemented:</span>
 
