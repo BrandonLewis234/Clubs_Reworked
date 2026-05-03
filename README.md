@@ -21,31 +21,31 @@
 <div>
     <ul style="display:flex; flex-flow: column;">
         <li style="display:flex; flex-flow: row nowrap; align-items: center;">
-            <img src="images/club/Crude.png" width=80 style="padding:2rem">
+            <img src="images/club/Crude.png" width=80 style="padding:2rem 2rem 2rem 0rem">
             <span style="color: #fff;">Crude Club</span>
         </li>
         <li style="display:flex; flex-flow: row nowrap; align-items: center;">
-            <img src="images/club/Copper.png" width=80 style="padding:2rem">
+            <img src="images/club/Copper.png" width=80 style="padding:2rem 2rem 2rem 0rem">
             <span style="color: #fff;">Copper Club</span>
         </li>
         <li style="display:flex; flex-flow: row nowrap; align-items: center;">
-            <img src="images/club/Iron.png" width=80 style="padding:2rem">
+            <img src="images/club/Iron.png" width=80 style="padding:2rem 2rem 2rem 0rem">
             <span style="color: #fff;">Iron Club</span>
         </li>
         <li style="display:flex; flex-flow: row nowrap; align-items: center;">
-            <img src="images/club/Thorium.png" width=80 style="padding:2rem">
+            <img src="images/club/Thorium.png" width=80 style="padding:2rem 2rem 2rem 0rem">
             <span style="color: #fff;">Thorium Club</span>
         </li>
         <li style="display:flex; flex-flow: row nowrap; align-items: center;">
-            <img src="images/club/Cobalt.png" width=80 style="padding:2rem">
+            <img src="images/club/Cobalt.png" width=80 style="padding:2rem 2rem 2rem 0rem">
             <span style="color: #fff;">Cobalt Club</span>
         </li>       
         <li style="display:flex; flex-flow: row nowrap; align-items: center;">
-            <img src="images/club/Adamantite.png" width=80 style="padding:2rem">
+            <img src="images/club/Adamantite.png" width=80 style="padding:2rem 2rem 2rem 0rem">
             <span style="color: #fff;">Adamantite Club</span>
         </li>    
         <li style="display:flex; flex-flow: row nowrap; align-items: center;">
-            <img src="images/club/Mithril.png" width=80 style="padding:2rem">
+            <img src="images/club/Mithril.png" width=80 style="padding:2rem 2rem 2rem 0rem">
             <span style="color: #fff;">Mithril Club</span>
         </li>                                             
     </ul>
@@ -56,31 +56,31 @@
 <div>
     <ul style="display:flex; flex-flow: column;">
         <li style="display:flex; flex-flow: row nowrap; align-items: center;">
-            <img src="images/flail/Crude.png" width=80 style="padding:2rem">
+            <img src="images/flail/Crude.png" width=80 style="padding:2rem 2rem 2rem 0rem">
             <span style="color: #fff;">Crude Flail</span>
         </li>
         <li style="display:flex; flex-flow: row nowrap; align-items: center;">
-            <img src="images/flail/Copper.png" width=80 style="padding:2rem">
+            <img src="images/flail/Copper.png" width=80 style="padding:2rem 2rem 2rem 0rem">
             <span style="color: #fff;">Copper Flail</span>
         </li>            
         <li style="display:flex; flex-flow: row nowrap; align-items: center;">
-            <img src="images/flail/Rusty.png" width=80 style="padding:2rem">
+            <img src="images/flail/Rusty.png" width=80 style="padding:2rem 2rem 2rem 0rem">
             <span style="color: #fff;">Rusty Steel Flail</span>
         </li>        
         <li style="display:flex; flex-flow: row nowrap; align-items: center;">
-            <img src="images/flail/Iron.png" width=80 style="padding:2rem">
+            <img src="images/flail/Iron.png" width=80 style="padding:2rem 2rem 2rem 0rem">
             <span style="color: #fff;">Iron Flail</span>            
         </li>
         <li style="display:flex; flex-flow: row nowrap; align-items: center;">
-            <img src="images/flail/Thorium.png" width=80 style="padding:2rem">
+            <img src="images/flail/Thorium.png" width=80 style="padding:2rem 2rem 2rem 0rem">
             <span style="color: #fff;">Thorium Flail</span>
         </li>
         <li style="display:flex; flex-flow: row nowrap; align-items: center">
-            <img src="images/flail/Cobalt.png" width=80 style="padding:2rem">
+            <img src="images/flail/Cobalt.png" width=80 style="padding:2rem 2rem 2rem 0rem">
             <span style="color: #fff;">Cobalt Flail</span>
         </li>              
         <li style="display:flex; flex-flow: row nowrap; align-items: center">
-            <img src="images/flail/Adamantite.png" width=80 style="padding:2rem">
+            <img src="images/flail/Adamantite.png" width=80 style="padding:2rem 2rem 2rem 0rem">
             <span style="color: #fff;">Adamantite Flail</span>
         </li>                                 
     </ul>
