@@ -21,11 +21,11 @@
 <div>
     <ul style="display:flex; flex-flow: column;">
         <li style="display:flex; flex-flow: row nowrap; align-items: center;">
-            <img src="images/club/Rusty.png" width=80 style="padding:2rem">
+            <img src="images/club/Crude.png" width=80 style="padding:2rem">
             <span style="color: #fff;">Crude Club</span>
         </li>
         <li style="display:flex; flex-flow: row nowrap; align-items: center;">
-            <img src="images/club/Crude.png" width=80 style="padding:2rem">
+            <img src="images/club/Copper.png" width=80 style="padding:2rem">
             <span style="color: #fff;">Copper Club</span>
         </li>
         <li style="display:flex; flex-flow: row nowrap; align-items: center;">
@@ -39,7 +39,15 @@
         <li style="display:flex; flex-flow: row nowrap; align-items: center;">
             <img src="images/club/Cobalt.png" width=80 style="padding:2rem">
             <span style="color: #fff;">Cobalt Club</span>
-        </li>                                
+        </li>       
+        <li style="display:flex; flex-flow: row nowrap; align-items: center;">
+            <img src="images/club/Adamantite.png" width=80 style="padding:2rem">
+            <span style="color: #fff;">Adamantite Club</span>
+        </li>    
+        <li style="display:flex; flex-flow: row nowrap; align-items: center;">
+            <img src="images/club/Mithril.png" width=80 style="padding:2rem">
+            <span style="color: #fff;">Mithril Club</span>
+        </li>                                             
     </ul>
 </div>
 
@@ -70,7 +78,11 @@
         <li style="display:flex; flex-flow: row nowrap; align-items: center">
             <img src="images/flail/Cobalt.png" width=80 style="padding:2rem">
             <span style="color: #fff;">Cobalt Flail</span>
-        </li>                                
+        </li>              
+        <li style="display:flex; flex-flow: row nowrap; align-items: center">
+            <img src="images/flail/Adamantite.png" width=80 style="padding:2rem">
+            <span style="color: #fff;">Adamantite Flail</span>
+        </li>                                 
     </ul>
 </div>
 
