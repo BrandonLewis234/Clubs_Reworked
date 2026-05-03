@@ -109,10 +109,6 @@
 *   <span style="color: #fff;">Implement the clubs that are unique to mobs, and add them to their drop tables.</span>
 *   <span style="color: #fff;"><s>Implement tiered versions of the flail.</s></span>
 
-## **<span style="color: #fff;">Further Goals</span>**
-
-<span style="color: #fff;">Once the other clubs are implemented, the mod will also aim to implement the</span> <span style="color: #eccafa;"><del><strong>flail</strong></del></span> <span style="color: #fff;">and</span> <span style="color: #eccafa;"><strong>zombie arm</strong></span> <span style="color: #fff;">weapon types, which are in a similar situation to the club.</span>
-
 ***
 
 ## <span style="color: #fff;"><strong>Compatibility</strong></span>
