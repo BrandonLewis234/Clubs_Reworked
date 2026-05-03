@@ -1,12 +1,12 @@
 {
   "Parent": "Tango_Template_Weapon_Club_Flail",
   "TranslationProperties": {
-    "Name": "server.items.Weapon_Club_Flail_Thorium.name"
+    "Name": "server.items.Weapon_Club_Flail_Cobalt.name"
   },
-  "Model": "Items/Weapons/Club_Flail/Thorium.blockymodel",
-  "Texture": "Items/Weapons/Club_Flail/Thorium_Texture.png",
-  "Icon": "Icons/ItemsGenerated/Weapon_Club_Flail_Thorium.png",
-  "Quality": "Uncommon",
+  "Model": "Items/Weapons/Club_Flail/Cobalt.blockymodel",
+  "Texture": "Items/Weapons/Club_Flail/Cobalt_Texture.png",
+  "Icon": "Icons/ItemsGenerated/Weapon_Club_Flail_Cobalt.png",
+  "Quality": "Rare",
   "PlayerAnimationsId": "Club_Flail",
   "Utility": {
     "Compatible": true
@@ -17,15 +17,15 @@
     "KnowledgeRequired": false,
     "Input": [
       {
-        "ItemId": "Ingredient_Bar_Thorium",
+        "ItemId": "Ingredient_Bar_Cobalt",
         "Quantity": 4
       },
       {
-        "ItemId": "Ingredient_Fabric_Scrap_Linen",
+        "ItemId": "Ingredient_Fabric_Scrap_Shadoweave",
         "Quantity": 3
       },
       {
-        "ItemId": "Ingredient_Leather_Medium",
+        "ItemId": "Ingredient_Leather_Heavy",
         "Quantity": 4
       }
     ],
@@ -73,7 +73,7 @@
             }
           },
           "DamageEffects": {
-            "WorldSoundEventId": "SFX_Club_Steel_Impact"
+            "WorldSoundEventId": "SFX_Mace_T2_Impact"
           },
           "EntityStatsOnHit": [
             {
@@ -105,7 +105,7 @@
             }
           },
           "DamageEffects": {
-            "WorldSoundEventId": "SFX_Club_Steel_Impact"
+            "WorldSoundEventId": "SFX_Mace_T2_Impact"
           },
           "EntityStatsOnHit": [
             {
@@ -137,7 +137,7 @@
             }
           },
           "DamageEffects": {
-            "WorldSoundEventId": "SFX_Club_Steel_Impact"
+            "WorldSoundEventId": "SFX_Mace_T2_Impact"
           },
           "EntityStatsOnHit": [
             {
@@ -169,7 +169,7 @@
             }
           },
           "DamageEffects": {
-            "WorldSoundEventId": "SFX_Club_Steel_Impact"
+            "WorldSoundEventId": "SFX_Mace_T2_Impact"
           },
           "EntityStatsOnHit": [
             {
@@ -201,7 +201,7 @@
             }
           },
           "DamageEffects": {
-            "WorldSoundEventId": "SFX_Club_Steel_Impact"
+            "WorldSoundEventId": "SFX_Mace_T2_Impact"
           },
           "EntityStatsOnHit": [
             {
@@ -260,7 +260,7 @@
             }
           },
           "DamageEffects": {
-            "WorldSoundEventId": "SFX_Club_Steel_Impact"
+            "WorldSoundEventId": "SFX_Mace_T2_Impact"
           },
           "EntityStatsOnHit": [
             {
@@ -323,5 +323,17 @@
     }
   },
   "MaxDurability": 150,
-  "DurabilityLossOnHit": 0.45
+  "DurabilityLossOnHit": 0.45,
+  "IconProperties": {
+    "Scale": 0.43,
+    "Rotation": [
+      45,
+      90,
+      0
+    ],
+    "Translation": [
+      -24,
+      -28
+    ]
+  }
 }
