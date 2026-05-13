@@ -1,0 +1,339 @@
+{
+  "Parent": "Tango_Template_Weapon_Club_Flail",
+  "TranslationProperties": {
+    "Name": "server.items.Weapon_Club_Flail_Thorium.name"
+  },
+  "Model": "Items/Weapons/Club_Flail/Thorium.blockymodel",
+  "Texture": "Items/Weapons/Club_Flail/Thorium_Texture.png",
+  "Icon": "Icons/ItemsGenerated/Weapon_Club_Flail_Thorium.png",
+  "Quality": "Uncommon",
+  "PlayerAnimationsId": "Club_Flail",
+  "Utility": {
+    "Compatible": true
+  },
+  "ItemLevel": 30,
+  "Recipe": {
+    "TimeSeconds": 4,
+    "KnowledgeRequired": false,
+    "Input": [
+      {
+        "ItemId": "Ingredient_Bar_Thorium",
+        "Quantity": 4
+      },
+      {
+        "ItemId": "Ingredient_Fabric_Scrap_Linen",
+        "Quantity": 3
+      },
+      {
+        "ItemId": "Ingredient_Leather_Medium",
+        "Quantity": 4
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Type": "Crafting",
+        "Categories": [
+          "Weapon_Mace"
+        ],
+        "Id": "Weapon_Bench",
+        "RequiredTierLevel": 2
+      }
+    ]
+  },
+  "InteractionVars": {
+    "Spin_Swing_Left_Charging": {
+      "Interactions": [
+        {
+          "Parent": "Weapon_Club_Flail_Spin_Swing_Left_Charging",
+          "Effects": {
+            "LocalSoundEventId": "SFX_Flail_Charge_Local",
+            "WorldSoundEventId": "SFX_Flail_Charge"
+          }
+        }
+      ]
+    },
+    "Swing_Left_Effect": {
+      "Interactions": [
+        {
+          "Parent": "Weapon_Club_Flail_Swing_Left_Effect",
+          "Effects": {
+            "LocalSoundEventId": "SFX_Flail_Swing_Left_Local",
+            "WorldSoundEventId": "SFX_Flail_Swing"
+          }
+        }
+      ]
+    },
+    "Swing_Left_Damage": {
+      "Interactions": [
+        {
+          "Parent": "Weapon_Club_Flail_Swing_Left_Damage",
+          "DamageCalculator": {
+            "BaseDamage": {
+              "Physical": 10
+            }
+          },
+          "DamageEffects": {
+            "WorldSoundEventId": "SFX_Club_Steel_Impact"
+          },
+          "EntityStatsOnHit": [
+            {
+              "EntityStatId": "SignatureEnergy",
+              "Amount": 1
+            }
+          ]
+        }
+      ]
+    },
+    "Swing_Right_Effect": {
+      "Interactions": [
+        {
+          "Parent": "Weapon_Club_Flail_Swing_Right_Effect",
+          "Effects": {
+            "LocalSoundEventId": "SFX_Flail_Swing_Right_Local",
+            "WorldSoundEventId": "SFX_Flail_Swing"
+          }
+        }
+      ]
+    },
+    "Swing_Right_Damage": {
+      "Interactions": [
+        {
+          "Parent": "Weapon_Club_Flail_Swing_Right_Damage",
+          "DamageCalculator": {
+            "BaseDamage": {
+              "Physical": 12
+            }
+          },
+          "DamageEffects": {
+            "WorldSoundEventId": "SFX_Club_Steel_Impact"
+          },
+          "EntityStatsOnHit": [
+            {
+              "EntityStatId": "SignatureEnergy",
+              "Amount": 1
+            }
+          ]
+        }
+      ]
+    },
+    "Swing_Up_Left_Effect": {
+      "Interactions": [
+        {
+          "Parent": "Weapon_Club_Flail_Swing_Up_Left_Effect",
+          "Effects": {
+            "LocalSoundEventId": "SFX_Flail_Swing_Left_Local",
+            "WorldSoundEventId": "SFX_Flail_Swing"
+          }
+        }
+      ]
+    },
+    "Swing_Up_Left_Damage": {
+      "Interactions": [
+        {
+          "Parent": "Weapon_Club_Flail_Swing_Up_Left_Damage",
+          "DamageCalculator": {
+            "BaseDamage": {
+              "Physical": 14
+            }
+          },
+          "DamageEffects": {
+            "WorldSoundEventId": "SFX_Club_Steel_Impact"
+          },
+          "EntityStatsOnHit": [
+            {
+              "EntityStatId": "SignatureEnergy",
+              "Amount": 1
+            }
+          ]
+        }
+      ]
+    },
+    "Swing_Down_Left_Effect": {
+      "Interactions": [
+        {
+          "Parent": "Weapon_Club_Flail_Swing_Down_Left_Effect",
+          "Effects": {
+            "LocalSoundEventId": "SFX_Flail_Swing_Left_Local",
+            "WorldSoundEventId": "SFX_Flail_Swing"
+          }
+        }
+      ]
+    },
+    "Swing_Down_Left_Damage": {
+      "Interactions": [
+        {
+          "Parent": "Weapon_Club_Flail_Swing_Down_Left_Damage",
+          "DamageCalculator": {
+            "BaseDamage": {
+              "Physical": 15
+            }
+          },
+          "DamageEffects": {
+            "WorldSoundEventId": "SFX_Club_Steel_Impact"
+          },
+          "EntityStatsOnHit": [
+            {
+              "EntityStatId": "SignatureEnergy",
+              "Amount": 1
+            }
+          ]
+        }
+      ]
+    },
+    "Swing_Up_Right_Effect": {
+      "Interactions": [
+        {
+          "Parent": "Weapon_Club_Flail_Swing_Up_Right_Effect",
+          "Effects": {
+            "LocalSoundEventId": "SFX_Flail_Swing_Right_Local",
+            "WorldSoundEventId": "SFX_Flail_Swing"
+          }
+        }
+      ]
+    },
+    "Swing_Up_Right_Damage": {
+      "Interactions": [
+        {
+          "Parent": "Weapon_Club_Flail_Swing_Up_Right_Damage",
+          "DamageCalculator": {
+            "BaseDamage": {
+              "Physical": 20
+            }
+          },
+          "DamageEffects": {
+            "WorldSoundEventId": "SFX_Club_Steel_Impact"
+          },
+          "EntityStatsOnHit": [
+            {
+              "EntityStatId": "SignatureEnergy",
+              "Amount": 1
+            }
+          ]
+        }
+      ]
+    },
+    "Spin_Swing_Left_Charged_Effect": {
+      "Interactions": [
+        {
+          "Parent": "Weapon_Club_Flail_Spin_Swing_Left_Charged_Effect",
+          "Effects": {
+            "LocalSoundEventId": "SFX_Flail_Swing_Left_Local",
+            "WorldSoundEventId": "SFX_Flail_Swing",
+            "Trails": [
+              {
+                "TrailId": "Small_Default",
+                "TargetNodeName": "Chain4",
+                "TargetEntityPart": "PrimaryItem"
+              },
+              {
+                "TrailId": "Small_Charged",
+                "RotationOffset": {
+                  "Yaw": 0,
+                  "Pitch": 90,
+                  "Roll": 0
+                },
+                "TargetNodeName": "Chain4",
+                "TargetEntityPart": "PrimaryItem"
+              },
+              {
+                "TrailId": "Small_Charged",
+                "RotationOffset": {
+                  "Yaw": 0,
+                  "Pitch": 0,
+                  "Roll": 90
+                },
+                "TargetNodeName": "Chain4",
+                "TargetEntityPart": "PrimaryItem"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "Spin_Swing_Left_Charged_Damage": {
+      "Interactions": [
+        {
+          "Parent": "Weapon_Club_Flail_Spin_Swing_Left_Charged_Damage",
+          "DamageCalculator": {
+            "BaseDamage": {
+              "Physical": 26
+            }
+          },
+          "DamageEffects": {
+            "WorldSoundEventId": "SFX_Club_Steel_Impact"
+          },
+          "EntityStatsOnHit": [
+            {
+              "EntityStatId": "SignatureEnergy",
+              "Amount": 2
+            }
+          ]
+        }
+      ]
+    },
+    "Signature_Whirlwind_Effect": {
+      "Interactions": [
+        {
+          "Parent": "Weapon_Club_Flail_Signature_Whirlwind_Spin_Effect",
+          "Effects": {
+            "LocalSoundEventId": "SFX_Battleaxe_T2_Signature_Swing_Local",
+            "WorldSoundEventId": "SFX_Battleaxe_T2_Signature_Swing"
+          }
+        }
+      ]
+    },
+    "Signature_Whirlwind_End_Effect": {
+      "Interactions": [
+        {
+          "Parent": "Weapon_Club_Flail_Signature_Whirlwind_End_Effect",
+          "Effects": {
+            "LocalSoundEventId": "SFX_Battleaxe_T2_Signature_End_Local",
+            "WorldSoundEventId": "SFX_Battleaxe_T2_Signature_End"
+          }
+        }
+      ]
+    },
+    "Signature_Whirlwind_Damage": {
+      "Interactions": [
+        {
+          "Parent": "Weapon_Club_Flail_Signature_Whirlwind_Damage",
+          "DamageCalculator": {
+            "BaseDamage": {
+              "Physical": 30
+            }
+          },
+          "EntityStatsOnHit": [],
+          "DamageEffects": {
+            "WorldSoundEventId": "SFX_Battleaxe_T2_Impact",
+            "LocalSoundEventId": "SFX_Battleaxe_T2_Impact"
+          }
+        }
+      ]
+    },
+    "Guard_Wield": {
+      "Interactions": [
+        {
+          "Parent": "Weapon_Club_Flail_Secondary_Guard_Wield",
+          "StaminaCost": {
+            "Value": 10,
+            "CostType": "Damage"
+          }
+        }
+      ]
+    }
+  },
+  "MaxDurability": 150,
+  "DurabilityLossOnHit": 0.45,
+  "IconProperties": {
+    "Scale": 0.43,
+    "Rotation": [
+      45,
+      90,
+      0
+    ],
+    "Translation": [
+      -24,
+      -28
+    ]
+  }
+}

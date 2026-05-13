@@ -32,8 +32,6 @@
         "TargetNodeName": "Handle",
         "TrailId": "Small_Default"
       }
-    ],
-    "LocalSoundEventId": "SFX_Flail_Swing_Right_Local",
-    "WorldSoundEventId": "SFX_Flail_Swing"
+    ]
   }
 }

@@ -1,13 +1,12 @@
 {
   "Group": "TangoMango",
-  "Name": "Clubs Reworked",
-  "Version": "1.7.3",
-  "Description": "A mod that introduces clubs to be usable by players. Previously only usable by mobs, players can now craft and use clubs! Complete with a unique combo, blocking, and a signature attack. Each club has its own crafting recipe.",
+  "Name": "Clubs and Flails",
+  "Version": "1.7.4",
+  "Description": "A mod that introduces clubs and flails to be usable by players. Previously only usable by mobs, players can now craft and use clubs and flails! Complete with a unique combo, blocking, and a signature attack.",
   "Authors": [
     {
       "Name": "TangoMango",
-      "Email": "",
-      "Url": ""
+      "Email": ""
     }
   ],
   "Website": "",
