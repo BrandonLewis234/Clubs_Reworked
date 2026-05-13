@@ -69,7 +69,7 @@
           "Parent": "Weapon_Club_Flail_Swing_Left_Damage",
           "DamageCalculator": {
             "BaseDamage": {
-              "Physical": 10
+              "Physical": 14
             }
           },
           "DamageEffects": {
@@ -101,7 +101,7 @@
           "Parent": "Weapon_Club_Flail_Swing_Right_Damage",
           "DamageCalculator": {
             "BaseDamage": {
-              "Physical": 12
+              "Physical": 16
             }
           },
           "DamageEffects": {
@@ -133,7 +133,7 @@
           "Parent": "Weapon_Club_Flail_Swing_Up_Left_Damage",
           "DamageCalculator": {
             "BaseDamage": {
-              "Physical": 14
+              "Physical": 18
             }
           },
           "DamageEffects": {
@@ -165,7 +165,7 @@
           "Parent": "Weapon_Club_Flail_Swing_Down_Left_Damage",
           "DamageCalculator": {
             "BaseDamage": {
-              "Physical": 15
+              "Physical": 19
             }
           },
           "DamageEffects": {
@@ -197,7 +197,7 @@
           "Parent": "Weapon_Club_Flail_Swing_Up_Right_Damage",
           "DamageCalculator": {
             "BaseDamage": {
-              "Physical": 20
+              "Physical": 24
             }
           },
           "DamageEffects": {
@@ -256,7 +256,7 @@
           "Parent": "Weapon_Club_Flail_Spin_Swing_Left_Charged_Damage",
           "DamageCalculator": {
             "BaseDamage": {
-              "Physical": 26
+              "Physical": 30
             }
           },
           "DamageEffects": {
@@ -299,7 +299,7 @@
           "Parent": "Weapon_Club_Flail_Signature_Whirlwind_Damage",
           "DamageCalculator": {
             "BaseDamage": {
-              "Physical": 30
+              "Physical": 40
             }
           },
           "EntityStatsOnHit": [],
