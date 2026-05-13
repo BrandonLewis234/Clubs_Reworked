@@ -1,4 +1,4 @@
-<h1><a href="https://www.curseforge.com/hytale/mods/clubs-reworked" target="_blank" style="color: #ffffff; text-decoration: none">Clubs and Flails</a></h1><h2 style="color: #eccafa; font-weight: bold;">Introduces clubs and flails as new weapon types usable by the player.</h2>
+<h1><a href="https://www.curseforge.com/hytale/mods/clubs-and-flails" target="_blank" style="color: #ffffff; text-decoration: none">Clubs and Flails</a></h1><h2 style="color: #eccafa; font-weight: bold;">Introduces clubs and flails as new weapon types usable by the player.</h2>
 
 <span style="color: #fff;">Previously, clubs and rusty flails only were usable by mobs, and spawning them in creative mode had limited usage—no blocking and no signature move.</span>
 
