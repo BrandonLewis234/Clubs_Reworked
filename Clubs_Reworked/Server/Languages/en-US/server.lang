@@ -6,5 +6,6 @@ items.Weapon_Club_Flail_Iron.name = Iron Flail
 items.Weapon_Club_Flail_Copper.name = Copper Flail
 items.Weapon_Club_Flail_Thorium.name = Thorium Flail
 items.Weapon_Club_Flail_Cobalt.name = Cobalt Flail
+items.Weapon_Club_Flail_Adamantite.name = Adamantite Flail
 
 benchCategories.flail = Flail

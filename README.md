@@ -1,8 +1,8 @@
 <h1><a href="https://www.curseforge.com/hytale/mods/clubs-reworked" target="_blank" style="color: #ffffff; text-decoration: none">Clubs and Flails</a></h1><h2 style="color: #eccafa; font-weight: bold;">Introduces clubs and flails as new weapon types usable by the player.</h2>
 
-<span style="color: #fff;">Previously, clubs and rusty flails only were usable by mobs, and spawning them in creative mode had limited usage — no blocking and no signature move.</span>
+<span style="color: #fff;">Previously, clubs and rusty flails only were usable by mobs, and spawning them in creative mode had limited usage—no blocking and no signature move.</span>
 
-<span style="color: #fff;">This mod aims to change that, while also introducing the <b style="color: #eccafa;">full progression line of flails.</b></span>
+<span style="color: #fff;">This mod aims to change that, while also introducing the <b style="color: #eccafa;">full progression line of flails</b>.</span>
 
 ***
 
@@ -16,71 +16,66 @@
 
 ## **<span style="color: #fff;">Current Status (Version 1.7.4)</span>**
 
-<h3 style="color: #fff;">The following clubs are implemented:</h3>
+<h3 style="color: #fff;">The following clubs and flails are implemented:</h3>
 
-<div>
+<div style="column-count: 2;">
     <ul style="display:flex; flex-flow: column;">
         <li style="display:flex; flex-flow: row nowrap; align-items: center;">
-            <img src="images/club/Crude.png" width=80 style="padding:2rem 2rem 2rem 0rem">
+            <img src="https://media.forgecdn.net/attachments/1677/750/crude-png.png" width=80 style="padding:2rem 2rem 2rem 0rem">
             <span style="color: #fff;">Crude Club</span>
         </li>
         <li style="display:flex; flex-flow: row nowrap; align-items: center;">
-            <img src="images/club/Copper.png" width=80 style="padding:2rem 2rem 2rem 0rem">
+            <img src="https://media.forgecdn.net/attachments/1677/749/copper-png.png" width=80 style="padding:2rem 2rem 2rem 0rem">
             <span style="color: #fff;">Copper Club</span>
         </li>
         <li style="display:flex; flex-flow: row nowrap; align-items: center;">
-            <img src="images/club/Iron.png" width=80 style="padding:2rem 2rem 2rem 0rem">
+            <img src="https://media.forgecdn.net/attachments/1677/751/iron-png.png" width=80 style="padding:2rem 2rem 2rem 0rem">
             <span style="color: #fff;">Iron Club</span>
         </li>
         <li style="display:flex; flex-flow: row nowrap; align-items: center;">
-            <img src="images/club/Thorium.png" width=80 style="padding:2rem 2rem 2rem 0rem">
+            <img src="https://media.forgecdn.net/attachments/1677/753/thorium-png.png" width=80 style="padding:2rem 2rem 2rem 0rem">
             <span style="color: #fff;">Thorium Club</span>
         </li>
         <li style="display:flex; flex-flow: row nowrap; align-items: center;">
-            <img src="images/club/Cobalt.png" width=80 style="padding:2rem 2rem 2rem 0rem">
+            <img src="https://media.forgecdn.net/attachments/1677/748/cobalt-png.png" width=80 style="padding:2rem 2rem 2rem 0rem">
             <span style="color: #fff;">Cobalt Club</span>
         </li>       
         <li style="display:flex; flex-flow: row nowrap; align-items: center;">
-            <img src="images/club/Adamantite.png" width=80 style="padding:2rem 2rem 2rem 0rem">
+            <img src="https://media.forgecdn.net/attachments/1677/747/adamantite-png.png" width=80 style="padding:2rem 2rem 2rem 0rem">
             <span style="color: #fff;">Adamantite Club</span>
         </li>    
         <li style="display:flex; flex-flow: row nowrap; align-items: center;">
-            <img src="images/club/Mithril.png" width=80 style="padding:2rem 2rem 2rem 0rem">
+            <img src="https://media.forgecdn.net/attachments/1677/752/mithril-png.png" width=80 style="padding:2rem 2rem 2rem 0rem">
             <span style="color: #fff;">Mithril Club</span>
         </li>                                             
     </ul>
-</div>
-
-<h3 style="color: #fff;">The following flails are implemented:</h3>
-
-<div>
     <ul style="display:flex; flex-flow: column;">
         <li style="display:flex; flex-flow: row nowrap; align-items: center;">
-            <img src="images/flail/Crude.png" width=80 style="padding:2rem 2rem 2rem 0rem">
+            <img src="https://media.forgecdn.net/attachments/1677/741/crude-png.png" width=80 style="padding:2rem 2rem 2rem 0rem">
             <span style="color: #fff;">Crude Flail</span>
         </li>
         <li style="display:flex; flex-flow: row nowrap; align-items: center;">
-            <img src="images/flail/Copper.png" width=80 style="padding:2rem 2rem 2rem 0rem">
+            <img src="https://media.forgecdn.net/attachments/1677/744/copper-png.png" width=80 style="padding:2rem 2rem 2rem 0rem">
             <span style="color: #fff;">Copper Flail</span>
         </li>            
         <li style="display:flex; flex-flow: row nowrap; align-items: center;">
-            <img src="images/flail/Rusty.png" width=80 style="padding:2rem 2rem 2rem 0rem">
+            <img src="https://media.forgecdn.net/attachments/1677/742/rusty-png.png" width=80 style="padding:2rem 2rem 2rem 0rem">
             <span style="color: #fff;">Rusty Steel Flail</span>
         </li>        
         <li style="display:flex; flex-flow: row nowrap; align-items: center;">
-            <img src="images/flail/Iron.png" width=80 style="padding:2rem 2rem 2rem 0rem">
+            <img src="https://media.forgecdn.net/attachments/1677/745/iron-png.png" width=80 style="padding:2rem 2rem 2rem 0rem">
             <span style="color: #fff;">Iron Flail</span>            
         </li>
         <li style="display:flex; flex-flow: row nowrap; align-items: center;">
-            <img src="images/flail/Thorium.png" width=80 style="padding:2rem 2rem 2rem 0rem">
+            <img src="https://media.forgecdn.net/attachments/1677/746/thorium-png.png" width=80 style="padding:2rem 2rem 2rem 0rem">
             <span style="color: #fff;">Thorium Flail</span>
         </li>
         <li style="display:flex; flex-flow: row nowrap; align-items: center">
-            <img src="images/flail/Cobalt.png" width=80 style="padding:2rem 2rem 2rem 0rem">
+            <img src="https://media.forgecdn.net/attachments/1677/740/cobalt-png.png" width=80 style="padding:2rem 2rem 2rem 0rem">
             <span style="color: #fff;">Cobalt Flail</span>
         </li>              
         <li style="display:flex; flex-flow: row nowrap; align-items: center">
-            <img src="images/flail/Adamantite.png" width=80 style="padding:2rem 2rem 2rem 0rem">
+            <img src="https://media.forgecdn.net/attachments/1677/743/adamantite-png.png" width=80 style="padding:2rem 2rem 2rem 0rem">
             <span style="color: #fff;">Adamantite Flail</span>
         </li>                                 
     </ul>
