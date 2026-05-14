@@ -1,5 +1,6 @@
 #### v1.7.5
 * Updated Adamantite flail from "Uncommon" to "Rare"
+* Updated Thorium flail from "Uncommon" to "Rare"
 
 #### v1.7.4
 

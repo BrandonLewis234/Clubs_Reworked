@@ -6,7 +6,7 @@
   "Model": "Items/Weapons/Club_Flail/Thorium.blockymodel",
   "Texture": "Items/Weapons/Club_Flail/Thorium_Texture.png",
   "Icon": "Icons/ItemsGenerated/Weapon_Club_Flail_Thorium.png",
-  "Quality": "Uncommon",
+  "Quality": "Rare",
   "PlayerAnimationsId": "Club_Flail",
   "Utility": {
     "Compatible": true
