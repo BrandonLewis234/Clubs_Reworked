@@ -14,7 +14,7 @@
 *   <span style="color: #fff;">Charged attack</span>
 *   <span style="color: #fff;">Signature move</span>
 
-## **<span style="color: #fff;">Current Status (Version 1.7.4)</span>**
+## **<span style="color: #fff;">Current Status (Version 1.7.5)</span>**
 
 <h3 style="color: #fff;">The following clubs and flails are implemented:</h3>
 

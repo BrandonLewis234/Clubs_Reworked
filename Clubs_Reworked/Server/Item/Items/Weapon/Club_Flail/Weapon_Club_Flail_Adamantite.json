@@ -6,7 +6,7 @@
   "Model": "Items/Weapons/Club_Flail/Adamantite.blockymodel",
   "Texture": "Items/Weapons/Club_Flail/Adamantite_Texture.png",
   "Icon": "Icons/ItemsGenerated/Weapon_Club_Flail_Adamantite.png",
-  "Quality": "Uncommon",
+  "Quality": "Rare",
   "PlayerAnimationsId": "Club_Flail",
   "Utility": {
     "Compatible": true
