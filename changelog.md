@@ -1,3 +1,6 @@
+#### v1.7.5
+* Updated Adamantite flail from "Uncommon" to "Rare"
+
 #### v1.7.4
 
 * Implemented a complete progression line of flail weaponry
